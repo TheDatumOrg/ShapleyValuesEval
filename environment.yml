@@ -1,4 +1,4 @@
-name: shap_torch
+name: shapeval
 channels:
   - conda-forge
   - pytorch
