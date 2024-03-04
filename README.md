@@ -1,5 +1,5 @@
 <h1 align="center">Shapley Values Evaluation</h1>
-<h2 align="center">A Comprehensive Evaluation of Shapley Values Approximations</h2>
+<h2 align="center">A Comprehensive Evaluation of Shapley Value Approximations</h2>
 
 ## 📄 Contents
 1. [Overview](#overview)
