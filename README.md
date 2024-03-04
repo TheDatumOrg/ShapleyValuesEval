@@ -32,7 +32,7 @@ conda env create --file environment.yml
 conda activate shapeval
 ```
 
-<h2 id="start"> 3. Evaluation </h2>
+<h2 id="evaluation"> 3. Evaluation </h2>
 
 We break down the approximation of Shapley values into two
 principal dimensions. These dimensions also serve as a guide for
