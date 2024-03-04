@@ -4,7 +4,7 @@
 ## 📄 Contents
 1. [Overview](#overview)
 2. [Get Started](#start)
-
+3. [Evaluation](#evaluation)
    
 <h2 id="overview"> 1. Overview </h2>
 
@@ -13,7 +13,7 @@ Understanding the choices made by machine learning models holds significant impo
 <h2 id="start"> 2. Get Started </h2>
 
 
-### 2.1 Installation
+### 2 Installation
 
 To install ShapleyValuesEval from source, you will need the following tools:
 - `git`
@@ -31,4 +31,22 @@ git clone https://github.com/TheDatumOrg/ShapleyValuesEval.git
 conda env create --file environment.yml
 conda activate shapeval
 ```
+
+<h2 id="start"> 3. Evaluation </h2>
+
+We break down the approximation of Shapley values into two
+principal dimensions. These dimensions also serve as a guide for
+setting up the evaluation framework. The first dimension involves
+properly treating missing values with the help of different replacement strategies. We deploy each replacement strategy against an
+exhaustive estimation of Shapley values. This evaluation measure
+will highlight the strengths and weaknesses of replacement strategies, aiding future research in selecting the most reliable strategy.
+The second dimension focuses on tractable estimation strategies,
+which are crucial for efficiently computing Shapley values. We analyze the performance of these tractable estimation strategies using
+established approximation algorithms. We systematically evaluate
+8 distinct replacement strategies and 17 distinct approximation algorithms across a diverse set of 100 datasets. This comprehensive
+evaluation enables us to thoroughly assess the performance and
+efficacy of different strategies and approximations in estimating
+Shapley values across varied data scenarios.
+
+
 
