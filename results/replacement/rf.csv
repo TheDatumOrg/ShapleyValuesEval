@@ -1,0 +1,737 @@
+,Model,dataset,Replacement Strategy,accuracy,time,features
+0,Random Forest,3droad,Separate models,99.73064481,16773.10873,3
+1,Random Forest,3droad,Zero,58.79272197,0.0002032802914,3
+2,Random Forest,3droad,Mean,80.63903293457246,0.000244006633,3
+4,Random Forest,3droad,Uniform,80.63903293457246,0.04289728857,3
+5,Random Forest,3droad,Marginal,99.62072232,0.00034965,3
+6,Random Forest,3droad,Conditional,99.62072222,0.012803,3
+7,Random Forest,3droad,Gaussian,99.62072251,0.008834,3
+8,Random Forest,3droad,Copula,99.62072231,0.013185,3
+9,Random Forest,apartments,Separate models,96.34145092,29.54486132,3
+10,Random Forest,apartments,Zero,80.63903293457246,0.00015662823270000002,3
+11,Random Forest,apartments,Mean,81.46028255,0.0001646666618,3
+13,Random Forest,apartments,Uniform,80.63903293457246,0.001736565984,3
+14,Random Forest,apartments,Marginal,96.16229867,0.00033755,3
+15,Random Forest,apartments,Conditional,96.16229889,0.004216,3
+16,Random Forest,apartments,Gaussian,96.16229874,0.005551,3
+17,Random Forest,apartments,Copula,96.16229839,0.006292,3
+18,Random Forest,brainweight,Separate models,99.61440529,32.13144255,3
+19,Random Forest,brainweight,Zero,80.63903293457246,0.00014453878579999998,3
+20,Random Forest,brainweight,Mean,99.93835553,0.0001502002402,3
+22,Random Forest,brainweight,Uniform,80.63903293457246,0.003422376029,3
+23,Random Forest,brainweight,Marginal,99.57676467,0.00032395000000000004,3
+24,Random Forest,brainweight,Conditional,99.5767647,0.005569,3
+25,Random Forest,brainweight,Gaussian,99.57676475,0.005591,3
+26,Random Forest,brainweight,Copula,99.57676472,0.009899,3
+27,Random Forest,chickweight,Separate models,99.6881595,35.04026604,3
+28,Random Forest,chickweight,Zero,80.63903293457246,0.0001546484688,3
+29,Random Forest,chickweight,Mean,94.68676375,0.000170435667,3
+31,Random Forest,chickweight,Uniform,99.51764713,0.018058786009999998,3
+32,Random Forest,chickweight,Marginal,99.67749693,0.0003201,3
+33,Random Forest,chickweight,Conditional,99.67749693,0.006766,3
+34,Random Forest,chickweight,Gaussian,99.67749696,0.006484,3
+35,Random Forest,chickweight,Copula,99.67749695,0.007362,3
+36,Random Forest,htwtindex,Separate models,99.92612145,35.00498509,3
+37,Random Forest,htwtindex,Zero,80.63903293457246,0.000168055741,3
+38,Random Forest,htwtindex,Mean,80.63903293457246,0.0001681828354,3
+40,Random Forest,htwtindex,Uniform,80.63903293457246,0.01038868811,3
+41,Random Forest,htwtindex,Marginal,99.91716089,0.0004963999999999999,3
+42,Random Forest,htwtindex,Conditional,99.91716089,0.007036,3
+43,Random Forest,htwtindex,Gaussian,99.91716097,0.007143,3
+44,Random Forest,htwtindex,Copula,99.91716086,0.006879,3
+45,Random Forest,jewellery,Separate models,99.97715406,41.53550649,3
+46,Random Forest,jewellery,Zero,80.63903293457246,0.00016383550699999999,3
+47,Random Forest,jewellery,Mean,58.48311213,0.0001785384195,3
+49,Random Forest,jewellery,Uniform,80.63903293457246,0.01134774897,3
+50,Random Forest,jewellery,Marginal,99.97266062,0.0004854,3
+51,Random Forest,jewellery,Conditional,99.97266062,0.006474,3
+52,Random Forest,jewellery,Gaussian,99.97266061,0.006092,3
+53,Random Forest,jewellery,Copula,99.97266061,0.009207,3
+54,Random Forest,questions,Separate models,99.80997834,39.05848765,3
+55,Random Forest,questions,Zero,80.63903293457246,0.0001645109162,3
+56,Random Forest,questions,Mean,98.73947228,0.0001703523665,3
+58,Random Forest,questions,Uniform,81.11278635,0.0155318059,3
+59,Random Forest,questions,Marginal,99.82962424,0.00032205,3
+60,Random Forest,questions,Conditional,99.82962423,0.006806,3
+61,Random Forest,questions,Gaussian,99.82962422,0.006379,3
+62,Random Forest,questions,Copula,99.82962425,0.011926,3
+63,Random Forest,spx,Separate models,99.78706353,45.38109994,3
+64,Random Forest,spx,Zero,80.63903293457246,0.0001661396654,3
+65,Random Forest,spx,Mean,85.68391738,0.0001497089904,3
+67,Random Forest,spx,Uniform,80.63903293457246,0.02853310505,3
+68,Random Forest,spx,Marginal,99.79257345,0.00033874999999999997,3
+69,Random Forest,spx,Conditional,99.79257345,0.008162,3
+70,Random Forest,spx,Gaussian,99.79257348,0.007819,3
+71,Random Forest,spx,Copula,99.79257347,0.016116,3
+72,Random Forest,advertisements,Separate models,95.71075009,48.6789012,4
+73,Random Forest,advertisements,Zero,80.63903293457246,0.00019335646339999998,4
+74,Random Forest,advertisements,Mean,79.0346022,0.00020333250720000001,4
+76,Random Forest,advertisements,Uniform,80.63903293457246,0.004095106692,4
+77,Random Forest,advertisements,Marginal,95.37792247,0.00027285,4
+78,Random Forest,advertisements,Conditional,95.37792259,0.005823,4
+79,Random Forest,advertisements,Gaussian,95.37792231,0.010955,4
+80,Random Forest,advertisements,Copula,95.37792223,0.019471,4
+81,Random Forest,advertising,Separate models,95.71075009,96.30607843,4
+82,Random Forest,advertising,Zero,80.63903293457246,0.00019724038150000002,4
+83,Random Forest,advertising,Mean,79.0346022,0.00020307303200000002,4
+85,Random Forest,advertising,Uniform,80.63903293457246,0.004075605176,4
+86,Random Forest,advertising,Marginal,95.37792247,0.00026635,4
+87,Random Forest,advertising,Conditional,95.37792259,0.004996,4
+88,Random Forest,advertising,Gaussian,95.37792231,0.012169,4
+89,Random Forest,advertising,Copula,95.37792223,0.010808,4
+90,Random Forest,blood,Separate models,99.65658086,54.16855812,4
+91,Random Forest,blood,Zero,80.63903293457246,0.0001757187042,4
+92,Random Forest,blood,Mean,52.00776834,0.0002339709809,4
+94,Random Forest,blood,Uniform,80.63903293457246,0.022317265849999997,4
+95,Random Forest,blood,Marginal,99.653577,0.00033555,4
+96,Random Forest,blood,Conditional,99.65357708,0.007579,4
+97,Random Forest,blood,Gaussian,99.65357668,0.007898,4
+98,Random Forest,blood,Copula,99.65357697,0.013417,4
+99,Random Forest,const-maint,Separate models,99.92605631,41.63754725,4
+100,Random Forest,const-maint,Zero,46.96573184,0.0001811957576,4
+101,Random Forest,const-maint,Mean,88.20130661,0.0001849368052,4
+103,Random Forest,const-maint,Uniform,48.9135501,0.0007172404419000001,4
+104,Random Forest,const-maint,Marginal,99.95621354,0.00024849999999999997,4
+105,Random Forest,const-maint,Conditional,99.9562135,0.004466,4
+106,Random Forest,const-maint,Gaussian,99.95621356,0.00418,4
+107,Random Forest,const-maint,Copula,99.95621351,0.004697,4
+108,Random Forest,diamonds_filter,Separate models,99.99560852,108.4209354,4
+109,Random Forest,diamonds_filter,Zero,80.63903293457246,0.00020906508930000002,4
+110,Random Forest,diamonds_filter,Mean,98.16378167,0.0002337461758,4
+112,Random Forest,diamonds_filter,Uniform,90.93541208,0.022757173470000003,4
+113,Random Forest,diamonds_filter,Marginal,99.97284997,0.00032045,4
+114,Random Forest,diamonds_filter,Conditional,99.97284995,0.007001,4
+115,Random Forest,diamonds_filter,Gaussian,99.97284997,0.00715,4
+116,Random Forest,diamonds_filter,Copula,99.97284999,0.00746,4
+117,Random Forest,diamonds_select,Separate models,99.97232794,129.2551069,4
+118,Random Forest,diamonds_select,Zero,80.63903293457246,0.00021511348449999997,4
+119,Random Forest,diamonds_select,Mean,80.63903293457246,0.0002386793996,4
+121,Random Forest,diamonds_select,Uniform,99.9904484,0.03696488148,4
+122,Random Forest,diamonds_select,Marginal,99.99958052,0.00041595,4
+123,Random Forest,diamonds_select,Conditional,99.99958052,0.008816,4
+124,Random Forest,diamonds_select,Gaussian,99.99958051,0.008733,4
+125,Random Forest,diamonds_select,Copula,99.99958051,0.017363,4
+126,Random Forest,economics,Separate models,98.62181677,127.9531362,4
+127,Random Forest,economics,Zero,80.63903293457246,0.0002169593322,4
+128,Random Forest,economics,Mean,89.22947477,0.000226948511,4
+130,Random Forest,economics,Uniform,80.63903293457246,0.01383327713,4
+131,Random Forest,economics,Marginal,98.67848079,0.00029915,4
+132,Random Forest,economics,Conditional,98.67848104,0.006885,4
+133,Random Forest,economics,Gaussian,98.67848152,0.006971,4
+134,Random Forest,economics,Copula,98.67848116,0.011055,4
+135,Random Forest,iris,Separate models,99.98434728,44.54741549,4
+136,Random Forest,iris,Zero,80.63903293457246,0.0001969015741,4
+137,Random Forest,iris,Mean,92.45200053,0.0001979373789,4
+139,Random Forest,iris,Uniform,94.01725577,0.003654233794,4
+140,Random Forest,iris,Marginal,99.99999887,0.00026495,4
+141,Random Forest,iris,Conditional,99.99999887,0.004984,4
+142,Random Forest,iris,Gaussian,99.99999887,0.005278,4
+143,Random Forest,iris,Copula,99.99999887,0.008735,4
+144,Random Forest,petrol,Separate models,95.11840202,84.76156211,4
+145,Random Forest,petrol,Zero,80.63903293457246,0.0001878053844,4
+146,Random Forest,petrol,Mean,99.92330667,0.00019400818649999998,4
+148,Random Forest,petrol,Uniform,80.63903293457246,0.001148380771,4
+149,Random Forest,petrol,Marginal,95.94402372,0.00036485,4
+150,Random Forest,petrol,Conditional,95.94402485,0.00405,4
+151,Random Forest,petrol,Gaussian,95.94402441,0.004689,4
+152,Random Forest,petrol,Copula,95.944024,0.006284,4
+153,Random Forest,power,Separate models,74.90209723,183.6775289,4
+154,Random Forest,power,Zero,80.63903293457246,0.0002768180941,4
+155,Random Forest,power,Mean,80.63903293457246,0.000316280193,4
+157,Random Forest,power,Uniform,99.3374416,0.06126041207,4
+158,Random Forest,power,Marginal,99.10398281,0.0003852,4
+159,Random Forest,power,Conditional,99.10398293,0.00886,4
+160,Random Forest,power,Gaussian,99.10398261,0.008766,4
+161,Random Forest,power,Copula,99.10398267,0.010156,4
+162,Random Forest,startups,Separate models,84.07573345,42.68050981,4
+163,Random Forest,startups,Zero,80.63903293457246,0.0001853945396,4
+164,Random Forest,startups,Mean,82.92852651,0.00016809536430000002,4
+166,Random Forest,startups,Uniform,80.63903293457246,0.0010881076,4
+167,Random Forest,startups,Marginal,84.39024088,0.0002744,4
+168,Random Forest,startups,Conditional,84.3902412,0.004382,4
+169,Random Forest,startups,Gaussian,84.3902412,0.004594,4
+170,Random Forest,startups,Copula,84.39024086,0.006525,4
+171,Random Forest,unemploy,Separate models,98.62181677,142.1432502,4
+172,Random Forest,unemploy,Zero,80.63903293457246,0.0002163342012,4
+173,Random Forest,unemploy,Mean,89.22947477,0.0002007604837,4
+175,Random Forest,unemploy,Uniform,80.63903293457246,0.0137561176,4
+176,Random Forest,unemploy,Marginal,98.67848079,0.0003556,4
+177,Random Forest,unemploy,Conditional,98.67848104,0.007056,4
+178,Random Forest,unemploy,Gaussian,98.67848152,0.006969,4
+179,Random Forest,unemploy,Copula,98.67848116,0.013871,4
+180,Random Forest,aiRandom Forestoil,Separate models,99.6033116,398.4419911,5
+181,Random Forest,aiRandom Forestoil,Zero,80.63903293457246,0.0002742764155,5
+182,Random Forest,aiRandom Forestoil,Mean,80.63903293457246,0.0002790344686,5
+184,Random Forest,aiRandom Forestoil,Uniform,48.50642897,0.03524511058,5
+185,Random Forest,aiRandom Forestoil,Marginal,99.92101827,0.00040375000000000003,5
+186,Random Forest,aiRandom Forestoil,Conditional,99.92101828,0.020585,5
+187,Random Forest,aiRandom Forestoil,Gaussian,99.92101815,0.00961,5
+188,Random Forest,aiRandom Forestoil,Copula,99.92101827,0.017135,5
+189,Random Forest,aiRandom Forestoil-self-noise,Separate models,99.6033116,400.3991048,5
+190,Random Forest,aiRandom Forestoil-self-noise,Zero,80.63903293457246,0.0002642844323,5
+191,Random Forest,aiRandom Forestoil-self-noise,Mean,80.63903293457246,0.0002748621948,5
+193,Random Forest,aiRandom Forestoil-self-noise,Uniform,48.50863898,0.03526914952,5
+194,Random Forest,aiRandom Forestoil-self-noise,Marginal,99.92101827,0.00044980000000000004,5
+195,Random Forest,aiRandom Forestoil-self-noise,Conditional,99.92101828,0.019937,5
+196,Random Forest,aiRandom Forestoil-self-noise,Gaussian,99.92101815,0.009395,5
+197,Random Forest,aiRandom Forestoil-self-noise,Copula,99.92101827,0.017125,5
+198,Random Forest,japanemg,Separate models,85.17902776,230.4131877,5
+199,Random Forest,japanemg,Zero,41.40786882,0.0002305084705,5
+200,Random Forest,japanemg,Mean,91.00425137,0.000224576664,5
+202,Random Forest,japanemg,Uniform,66.55326437,0.0011394770780000002,5
+203,Random Forest,japanemg,Marginal,86.16467178,0.0002918,5
+204,Random Forest,japanemg,Conditional,86.16467211,0.004935,5
+205,Random Forest,japanemg,Gaussian,86.16467184,0.004716,5
+206,Random Forest,japanemg,Copula,86.16466953,0.008188,5
+207,Random Forest,linnerud,Separate models,90.42631703,107.6733944,5
+208,Random Forest,linnerud,Zero,99.53249425,0.00020942228180000002,5
+209,Random Forest,linnerud,Mean,96.51546145,0.000219448294,5
+211,Random Forest,linnerud,Uniform,80.74691386,0.0005858219691999999,5
+212,Random Forest,linnerud,Marginal,89.94342413,0.00027505,5
+213,Random Forest,linnerud,Conditional,89.94343014,0.004848,5
+214,Random Forest,linnerud,Gaussian,89.94342611,0.004413,5
+215,Random Forest,linnerud,Copula,89.94342534,0.00515,5
+216,Random Forest,sacramento,Separate models,99.72477053,425.65172,5
+217,Random Forest,sacramento,Zero,63.14194044,0.0002485362764,5
+218,Random Forest,sacramento,Mean,99.71137091,0.0002839578568,5
+220,Random Forest,sacramento,Uniform,86.52602576,0.02756165531,5
+221,Random Forest,sacramento,Marginal,99.74492048,0.00045979999999999995,5
+222,Random Forest,sacramento,Conditional,99.74492049,0.009508,5
+223,Random Forest,sacramento,Gaussian,99.7449202,0.009632,5
+224,Random Forest,sacramento,Copula,99.74492046,0.010383,5
+225,Random Forest,uber,Separate models,99.54732602,84291.70097,5
+226,Random Forest,uber,Zero,99.90408246,0.00034531147909999996,5
+227,Random Forest,uber,Mean,83.2893807,0.0003347499212,5
+228,Random Forest,uber,Uniform,99.55106605,0.07821975054000001,5
+230,Random Forest,uber,Marginal,99.5690272,0.00046550000000000004,5
+231,Random Forest,uber,Conditional,99.56902726,0.009783,5
+232,Random Forest,uber,Gaussian,99.56903436,0.010486,5
+233,Random Forest,uber,Copula,99.56902745,0.010542,5
+234,Random Forest,insurance,Separate models,99.10076405,1035.068499,6
+235,Random Forest,insurance,Zero,80.63903293457246,0.0003253733707,6
+236,Random Forest,insurance,Mean,58.99998383,0.0003288424514,6
+238,Random Forest,insurance,Uniform,74.55794502,0.039170390480000004,6
+239,Random Forest,insurance,Marginal,98.91091304,0.00043924999999999997,6
+240,Random Forest,insurance,Conditional,98.91091304,0.009897,6
+241,Random Forest,insurance,Gaussian,98.91091322,0.010546,6
+242,Random Forest,insurance,Copula,98.9109124,0.018806,6
+243,Random Forest,kiva,Separate models,99.91818501,1491.55706,6
+244,Random Forest,kiva,Zero,80.63903293457246,0.00034737766730000004,6
+245,Random Forest,kiva,Mean,80.63903293457246,0.0003556948655,6
+247,Random Forest,kiva,Uniform,80.63903293457246,0.04873310884,6
+248,Random Forest,kiva,Marginal,99.43703079,0.00043759999999999996,6
+249,Random Forest,kiva,Conditional,99.43703076,0.008562,6
+250,Random Forest,kiva,Gaussian,99.43703089,0.009128,6
+251,Random Forest,kiva,Copula,99.43703071,0.02241,6
+252,Random Forest,powerlifting,Separate models,99.44019576,10025.0569,6
+253,Random Forest,powerlifting,Zero,80.63903293457246,0.00035783344619999996,6
+254,Random Forest,powerlifting,Mean,97.63698136,0.0003881315499,6
+256,Random Forest,powerlifting,Uniform,54.76840591,0.1035786109,6
+257,Random Forest,powerlifting,Marginal,99.07117712,0.0004484,6
+258,Random Forest,powerlifting,Conditional,99.07117714,0.010399,6
+259,Random Forest,powerlifting,Gaussian,99.07117716,0.010366,6
+260,Random Forest,powerlifting,Copula,99.07117712,0.019334,6
+261,Random Forest,seeds,Separate models,99.34372504,319.1816435,6
+262,Random Forest,seeds,Zero,80.63903293457246,0.0002876245975,6
+263,Random Forest,seeds,Mean,74.47411114,0.0002928311306,6
+265,Random Forest,seeds,Uniform,80.63903293457246,0.005371750172,6
+266,Random Forest,seeds,Marginal,99.34853575,0.0003427,6
+267,Random Forest,seeds,Conditional,99.34853603,0.006426,6
+268,Random Forest,seeds,Gaussian,99.34853603,0.007389,6
+269,Random Forest,seeds,Copula,99.34853592,0.00619,6
+270,Random Forest,walmart,Separate models,99.61942265,5851.38925,6
+271,Random Forest,walmart,Zero,80.63903293457246,0.0002942049048,6
+272,Random Forest,walmart,Mean,72.9385777,0.00031740459380000003,6
+274,Random Forest,walmart,Uniform,80.63903293457246,0.049014482549999995,6
+275,Random Forest,walmart,Marginal,99.9703545,0.0004908499999999999,6
+276,Random Forest,walmart,Conditional,99.97035451,0.010137,6
+277,Random Forest,walmart,Gaussian,99.97035442,0.008751,6
+278,Random Forest,walmart,Copula,99.97035448,0.010573,6
+279,Random Forest,yatch,Separate models,98.75652724,462.5080135,6
+280,Random Forest,yatch,Zero,51.16599149,0.0002976601217,6
+281,Random Forest,yatch,Mean,74.49817004,0.0002812228857,6
+283,Random Forest,yatch,Uniform,83.91943854,0.01439818331,6
+284,Random Forest,yatch,Marginal,98.74885182,0.00031985,6
+285,Random Forest,yatch,Conditional,98.7488518,0.006429,6
+286,Random Forest,yatch,Gaussian,98.74885228,0.006822,6
+287,Random Forest,yatch,Copula,98.74885202,0.012464,6
+288,Random Forest,admission,Separate models,97.12341325,886.3095288,7
+289,Random Forest,admission,Zero,80.63903293457246,0.0003338720278,7
+290,Random Forest,admission,Mean,89.86386477,0.0003442946333,7
+292,Random Forest,admission,Uniform,80.63903293457246,0.017573998060000002,7
+293,Random Forest,admission,Marginal,96.9996405,0.0004428,7
+294,Random Forest,admission,Conditional,96.99964126,0.009601,7
+295,Random Forest,admission,Gaussian,96.99964131,0.007446,7
+296,Random Forest,admission,Copula,96.99964136,0.01024,7
+297,Random Forest,auto-mpg,Separate models,99.51673227,1698.184683,7
+298,Random Forest,auto-mpg,Zero,80.63903293457246,0.0003392826979,7
+299,Random Forest,auto-mpg,Mean,94.56965577,0.0003381610999,7
+301,Random Forest,auto-mpg,Uniform,80.63903293457246,0.02142552755,7
+302,Random Forest,auto-mpg,Marginal,99.49579812,0.00044669999999999996,7
+303,Random Forest,auto-mpg,Conditional,99.49579825,0.008357,7
+304,Random Forest,auto-mpg,Gaussian,99.49579838,0.008813,7
+305,Random Forest,auto-mpg,Copula,99.4957982,0.014783,7
+306,Random Forest,autompg,Separate models,99.51673227,1702.520315,7
+307,Random Forest,autompg,Zero,80.63903293457246,0.0003338358274,7
+308,Random Forest,autompg,Mean,94.56965577,0.00034136987280000003,7
+310,Random Forest,autompg,Uniform,80.63903293457246,0.0213791847,7
+311,Random Forest,autompg,Marginal,99.49579812,0.00046154999999999997,7
+312,Random Forest,autompg,Conditional,99.49579825,0.007918,7
+313,Random Forest,autompg,Gaussian,99.49579838,0.008503,7
+314,Random Forest,autompg,Copula,99.4957982,0.014243,7
+315,Random Forest,chanceadmit,Separate models,99.76347667,1661.888326,7
+316,Random Forest,chanceadmit,Zero,80.63903293457246,0.0003187091585,7
+317,Random Forest,chanceadmit,Mean,83.18944852,0.00034418511030000004,7
+319,Random Forest,chanceadmit,Uniform,80.63903293457246,0.012874446369999999,7
+320,Random Forest,chanceadmit,Marginal,99.72825787,0.0004363,7
+321,Random Forest,chanceadmit,Conditional,99.72825798,0.008388,7
+322,Random Forest,chanceadmit,Gaussian,99.72825802,0.007569,7
+323,Random Forest,chanceadmit,Copula,99.72825802,0.008859,7
+324,Random Forest,computer,Separate models,99.61755066,1478.661773,7
+325,Random Forest,computer,Zero,57.34320507,0.0003269088337,7
+326,Random Forest,computer,Mean,91.92043778,0.0003238220664,7
+328,Random Forest,computer,Uniform,80.63903293457246,0.008007657455,7
+329,Random Forest,computer,Marginal,99.73346078,0.00034055,7
+330,Random Forest,computer,Conditional,99.7334609,0.007065,7
+331,Random Forest,computer,Gaussian,99.73346096,0.00873,7
+332,Random Forest,computer,Copula,99.73346082,0.007095,7
+333,Random Forest,diamond,Separate models,99.99682899,2458.191053,7
+334,Random Forest,diamond,Zero,80.63903293457246,0.0003866199407,7
+335,Random Forest,diamond,Mean,98.04799898,0.0003980081385,7
+337,Random Forest,diamond,Uniform,89.80778828,0.10407744719999999,7
+338,Random Forest,diamond,Marginal,99.96173556,0.0006148,7
+339,Random Forest,diamond,Conditional,99.96173557,0.011787,7
+340,Random Forest,diamond,Gaussian,99.9617356,0.012128,7
+341,Random Forest,diamond,Copula,99.96173554,0.012518,7
+342,Random Forest,france,Separate models,99.86047718,8874.921689,7
+343,Random Forest,france,Zero,80.63903293457246,0.00036357659860000003,7
+344,Random Forest,france,Mean,53.8891826,0.0003693489942,7
+346,Random Forest,france,Uniform,80.63903293457246,0.08906111382000001,7
+347,Random Forest,france,Marginal,99.53577179,0.0006368999999999999,7
+348,Random Forest,france,Conditional,99.53577188,0.010349,7
+349,Random Forest,france,Gaussian,99.53576302,0.013104,7
+350,Random Forest,france,Copula,99.53577047,0.013439,7
+351,Random Forest,germany,Separate models,99.96896833,10817.14099,7
+352,Random Forest,germany,Zero,80.63903293457246,0.000347684106,7
+353,Random Forest,germany,Mean,63.59607124,0.0004296606013,7
+355,Random Forest,germany,Uniform,70.81013198,0.08021643816,7
+356,Random Forest,germany,Marginal,99.87206845,0.0006299,7
+357,Random Forest,germany,Conditional,99.87206848,0.013346,7
+358,Random Forest,germany,Gaussian,99.87206821,0.012903,7
+359,Random Forest,germany,Copula,99.87206837,0.011978,7
+360,Random Forest,raotbl6,Separate models,99.90431782,1292.65782,7
+361,Random Forest,raotbl6,Zero,80.63903293457246,0.0003231475644,7
+362,Random Forest,raotbl6,Mean,96.73726502,0.0002815087598,7
+364,Random Forest,raotbl6,Uniform,80.63903293457246,0.003328075572,7
+365,Random Forest,raotbl6,Marginal,99.91538525,0.00032155,7
+366,Random Forest,raotbl6,Conditional,99.91538527,0.006496,7
+367,Random Forest,raotbl6,Gaussian,99.91538525,0.006947,7
+368,Random Forest,raotbl6,Copula,99.91538525,0.013104,7
+369,Random Forest,raotbl7,Separate models,99.0856875,681.6566336,7
+370,Random Forest,raotbl7,Zero,80.63903293457246,0.0003116983437,7
+371,Random Forest,raotbl7,Mean,92.4082715,0.0002976674917,7
+373,Random Forest,raotbl7,Uniform,80.63903293457246,0.0034793278710000004,7
+374,Random Forest,raotbl7,Marginal,99.04034087,0.0003229,7
+375,Random Forest,raotbl7,Conditional,99.04034101,0.006442,7
+376,Random Forest,raotbl7,Gaussian,99.04034084,0.007884,7
+377,Random Forest,raotbl7,Copula,99.04034107,0.014105,7
+378,Random Forest,realestate,Separate models,99.97596712,890.1279848,7
+379,Random Forest,realestate,Zero,80.63903293457246,0.00033787050389999995,7
+380,Random Forest,realestate,Mean,80.63903293457246,0.0003606535205,7
+382,Random Forest,realestate,Uniform,98.24982784,0.02007728508,7
+383,Random Forest,realestate,Marginal,99.99716721,0.0005149,7
+384,Random Forest,realestate,Conditional,99.9971672,0.008727,7
+385,Random Forest,realestate,Gaussian,99.99716725,0.010128,7
+386,Random Forest,realestate,Copula,99.9971672,0.008834,7
+387,Random Forest,slump,Separate models,99.65671977,679.0060003,7
+388,Random Forest,slump,Zero,80.63903293457246,0.0002990051859,7
+389,Random Forest,slump,Mean,80.63903293457246,0.00032792136249999997,7
+391,Random Forest,slump,Uniform,80.63903293457246,0.0041101816610000005,7
+392,Random Forest,slump,Marginal,99.70759822,0.00031,7
+393,Random Forest,slump,Conditional,99.70759814,0.006077,7
+394,Random Forest,slump,Gaussian,99.70759821,0.008372,7
+395,Random Forest,slump,Copula,99.70759823,0.012454,7
+396,Random Forest,slump-flow,Separate models,99.88106039,1354.478675,7
+397,Random Forest,slump-flow,Zero,80.63903293457246,0.00030629263199999997,7
+398,Random Forest,slump-flow,Mean,43.05690826,0.00032219044600000004,7
+400,Random Forest,slump-flow,Uniform,80.63903293457246,0.004113190272,7
+401,Random Forest,slump-flow,Marginal,99.93785769,0.00031005,7
+402,Random Forest,slump-flow,Conditional,99.93785767,0.006648,7
+403,Random Forest,slump-flow,Gaussian,99.93785772,0.006587,7
+404,Random Forest,slump-flow,Copula,99.93785771,0.006948,7
+405,Random Forest,slump-mpa,Separate models,99.83586483,1366.970731,7
+406,Random Forest,slump-mpa,Zero,42.41932074,0.0003015632139,7
+407,Random Forest,slump-mpa,Mean,80.63903293457246,0.00031699050880000003,7
+409,Random Forest,slump-mpa,Uniform,51.87080001,0.005262286754,7
+410,Random Forest,slump-mpa,Marginal,99.64466595,0.00030465,7
+411,Random Forest,slump-mpa,Conditional,99.64466594,0.006029,7
+412,Random Forest,slump-mpa,Gaussian,99.64466556,0.006498,7
+413,Random Forest,slump-mpa,Copula,99.64466581,0.011877,7
+414,Random Forest,wholesale,Separate models,99.41415496,1010.182076,7
+415,Random Forest,wholesale,Zero,95.22151739,0.00034442559990000005,7
+416,Random Forest,wholesale,Mean,99.99298605,0.0003748125083,7
+418,Random Forest,wholesale,Uniform,96.50241264,0.01700927643,7
+419,Random Forest,wholesale,Marginal,99.44265148,0.00043765000000000004,7
+420,Random Forest,wholesale,Conditional,99.44265148,0.008479,7
+421,Random Forest,wholesale,Gaussian,99.44265174,0.00977,7
+422,Random Forest,wholesale,Copula,99.44265148,0.009844,7
+423,Random Forest,californiahousing,Separate models,99.75662699,101161.2658,8
+424,Random Forest,californiahousing,Zero,80.63903293457246,0.0004953106692,8
+425,Random Forest,californiahousing,Mean,69.5654077,0.0004451751586,8
+427,Random Forest,californiahousing,Uniform,91.55582981,0.10997142,8
+428,Random Forest,californiahousing,Marginal,99.1932113,0.0007605,8
+429,Random Forest,californiahousing,Conditional,99.19321137,0.015516,8
+430,Random Forest,californiahousing,Gaussian,99.19321133,0.016876,8
+431,Random Forest,californiahousing,Copula,99.19321129,0.016006,8
+432,Random Forest,cms,Separate models,99.91379702,5813.525453,8
+433,Random Forest,cms,Zero,80.63903293457246,0.00034752577,8
+434,Random Forest,cms,Mean,80.00796619,0.00042365785009999997,8
+436,Random Forest,cms,Uniform,80.63903293457246,0.07060839466,8
+437,Random Forest,cms,Marginal,99.93449047,0.00066675,8
+438,Random Forest,cms,Conditional,99.93449048,0.015711,8
+439,Random Forest,cms,Gaussian,99.93449064,0.016576,8
+440,Random Forest,cms,Copula,99.93449053,0.016931,8
+441,Random Forest,concrete,Separate models,99.91379702,6576.097794,8
+442,Random Forest,concrete,Zero,80.63903293457246,0.0003905856544,8
+443,Random Forest,concrete,Mean,80.00796619,0.00038535471690000005,8
+445,Random Forest,concrete,Uniform,80.63903293457246,0.07154096153,8
+446,Random Forest,concrete,Marginal,99.93449047,0.00073105,8
+447,Random Forest,concrete,Conditional,99.93449048,0.015888,8
+448,Random Forest,concrete,Gaussian,99.93449064,0.017449,8
+449,Random Forest,concrete,Copula,99.93449053,0.016735,8
+450,Random Forest,crab,Separate models,99.66820609,11372.18751,8
+451,Random Forest,crab,Zero,80.63903293457246,0.0004052168731,8
+452,Random Forest,crab,Mean,98.58315148,0.00045268060220000005,8
+454,Random Forest,crab,Uniform,56.14901063,0.07393405651,8
+455,Random Forest,crab,Marginal,99.53146257,0.00077995,8
+456,Random Forest,crab,Conditional,99.53146258,0.015075,8
+457,Random Forest,crab,Gaussian,99.53146303,0.020226,8
+458,Random Forest,crab,Copula,99.53146288,0.016769,8
+459,Random Forest,cust,Separate models,99.65285813,3327.537089,8
+460,Random Forest,cust,Zero,80.63903293457246,0.00039825080720000004,8
+461,Random Forest,cust,Mean,99.9489595,0.00041396253299999996,8
+463,Random Forest,cust,Uniform,80.63903293457246,0.03724272647,8
+464,Random Forest,cust,Marginal,99.58753863,0.0007136,8
+465,Random Forest,cust,Conditional,99.5875387,0.013289,8
+466,Random Forest,cust,Gaussian,99.58753826,0.017363,8
+467,Random Forest,cust,Copula,99.58753862,0.015658,8
+468,Random Forest,diabetes,Separate models,99.89007157,5841.647982,8
+469,Random Forest,diabetes,Zero,80.63903293457246,0.00039192423009999996,8
+470,Random Forest,diabetes,Mean,95.09451162,0.0003948709833,8
+472,Random Forest,diabetes,Uniform,99.55057234,0.04662264283,8
+473,Random Forest,diabetes,Marginal,99.80215715,0.0009268999999999999,8
+474,Random Forest,diabetes,Conditional,99.80215714,0.013867,8
+475,Random Forest,diabetes,Gaussian,99.80215744,0.015098,8
+476,Random Forest,diabetes,Copula,99.80215724,0.031756,8
+477,Random Forest,energy_cool,Separate models,99.98509124,1858.592414,8
+478,Random Forest,energy_cool,Zero,80.63903293457246,0.0004295855254,8
+479,Random Forest,energy_cool,Mean,94.42227795,0.0004065672103,8
+481,Random Forest,energy_cool,Uniform,80.63903293457246,0.0448832883,8
+482,Random Forest,energy_cool,Marginal,99.98419652,0.00073715,8
+483,Random Forest,energy_cool,Conditional,99.98419653,0.013396,8
+484,Random Forest,energy_cool,Gaussian,99.98419656,0.016431,8
+485,Random Forest,energy_cool,Copula,99.98419655,0.014509,8
+486,Random Forest,energy_heat,Separate models,99.95607374,1882.669428,8
+487,Random Forest,energy_heat,Zero,80.63903293457246,0.00036702221299999996,8
+488,Random Forest,energy_heat,Mean,88.03268725,0.0003982188063,8
+490,Random Forest,energy_heat,Uniform,80.63903293457246,0.04610198082,8
+491,Random Forest,energy_heat,Marginal,99.95384614,0.00070175,8
+492,Random Forest,energy_heat,Conditional,99.95384614,0.013039,8
+493,Random Forest,energy_heat,Gaussian,99.95384621,0.016068,8
+494,Random Forest,energy_heat,Copula,99.95384617,0.014614,8
+495,Random Forest,prostate,Separate models,99.99913035,3080.223489,8
+496,Random Forest,prostate,Zero,80.63903293457246,0.00034615599750000003,8
+497,Random Forest,prostate,Mean,99.40056509,0.0003575515458,8
+499,Random Forest,prostate,Uniform,80.63903293457246,0.005121059909,8
+500,Random Forest,prostate,Marginal,99.96237742,0.00039025,8
+501,Random Forest,prostate,Conditional,99.96237744,0.008595,8
+502,Random Forest,prostate,Gaussian,99.96237741,0.010412,8
+503,Random Forest,prostate,Copula,99.96237745,0.018852,8
+504,Random Forest,rentals,Separate models,99.86887082,26309.87412,8
+505,Random Forest,rentals,Zero,80.63903293457246,0.0003661680792,8
+506,Random Forest,rentals,Mean,99.99918721,0.0003121585297,8
+508,Random Forest,rentals,Uniform,80.63903293457246,0.04999826665,8
+509,Random Forest,rentals,Marginal,99.99961262,0.0011837,8
+510,Random Forest,rentals,Conditional,99.99961263,0.01458,8
+511,Random Forest,rentals,Gaussian,99.99961263,0.016827,8
+512,Random Forest,rentals,Copula,99.99961263,0.017881,8
+513,Random Forest,wage,Separate models,99.86606735,4458.052432,8
+514,Random Forest,wage,Zero,80.63903293457246,0.0003567194021,8
+515,Random Forest,wage,Mean,96.34172908,0.0003614916874,8
+517,Random Forest,wage,Uniform,80.63903293457246,0.0423188799,8
+518,Random Forest,wage,Marginal,99.99754471,0.0006864999999999999,8
+519,Random Forest,wage,Conditional,99.99754472,0.017227,8
+520,Random Forest,wage,Gaussian,99.99754472,0.017795,8
+521,Random Forest,wage,Copula,99.99754472,0.019427,8
+522,Random Forest,cancer,Separate models,99.71650047,7769.542805,9
+523,Random Forest,cancer,Zero,80.63903293457246,0.0004253067063,9
+524,Random Forest,cancer,Mean,78.55227537,0.0004339707816,9
+526,Random Forest,cancer,Uniform,80.63903293457246,0.04481002483,9
+527,Random Forest,cancer,Marginal,99.77368854,0.00092295,9
+528,Random Forest,cancer,Conditional,99.77368865,0.017003,9
+529,Random Forest,cancer,Gaussian,99.77368879,0.028335,9
+530,Random Forest,cancer,Copula,99.77368846,0.031942,9
+531,Random Forest,casp,Separate models,99.84514973,35933.56398,9
+532,Random Forest,casp,Zero,81.77980235,0.0004969972249,9
+533,Random Forest,casp,Mean,57.15332913,0.0005434475733,9
+535,Random Forest,casp,Uniform,80.63903293457246,0.06267664419999999,9
+536,Random Forest,casp,Marginal,98.5533335,0.0009826,9
+537,Random Forest,casp,Conditional,98.55333374,0.021792,9
+538,Random Forest,casp,Gaussian,98.55333259,0.025683,9
+539,Random Forest,casp,Copula,98.55333326,0.026306,9
+540,Random Forest,country-data,Separate models,99.99451497,29933.56398,9
+541,Random Forest,country-data,Zero,51.57511501,0.0004015707842,9
+542,Random Forest,country-data,Mean,92.77687191,0.0003900733888,9
+544,Random Forest,country-data,Uniform,80.63903293457246,0.007960084745,9
+545,Random Forest,country-data,Marginal,99.97453652,0.0007107999999999999,9
+546,Random Forest,country-data,Conditional,99.97453656,0.012612,9
+547,Random Forest,country-data,Gaussian,99.97453656,0.03332,9
+548,Random Forest,country-data,Copula,99.9745365,0.030743,9
+549,Random Forest,employee,Separate models,99.94514973,39533.56398,9
+550,Random Forest,employee,Zero,78.83341602,0.0004609182401,9
+551,Random Forest,employee,Mean,99.62627954,0.00047126872030000004,9
+553,Random Forest,employee,Uniform,93.98580491,0.09001272123,9
+554,Random Forest,employee,Marginal,99.84448778,0.0014503,9
+555,Random Forest,employee,Conditional,99.84448775,0.018824,9
+556,Random Forest,employee,Gaussian,99.84448783,0.402155,9
+557,Random Forest,employee,Copula,99.84448791,0.110826,9
+558,Random Forest,energy,Separate models,99.99369676,5077.498391,9
+559,Random Forest,energy,Zero,80.63903293457246,0.0004071706045,9
+560,Random Forest,energy,Mean,89.46291151,0.0004103528853,9
+562,Random Forest,energy,Uniform,80.63903293457246,0.03954166047,9
+563,Random Forest,energy,Marginal,99.99545373,0.0008694,9
+564,Random Forest,energy,Conditional,99.99545373,0.019494,9
+565,Random Forest,energy,Gaussian,99.99545375,0.160145,9
+566,Random Forest,energy,Copula,99.99545374,0.196494,9
+567,Random Forest,friedman,Separate models,99.96202129,17607.52101,9
+568,Random Forest,friedman,Zero,80.63903293457246,0.0004452186751,9
+569,Random Forest,friedman,Mean,90.9091571,0.0004605760256,9
+571,Random Forest,friedman,Uniform,78.98621609,0.1290115707,9
+572,Random Forest,friedman,Marginal,99.36944805,0.0011154000000000001,9
+573,Random Forest,friedman,Conditional,99.36944807,0.02017,9
+574,Random Forest,friedman,Gaussian,99.36944828,0.02455,9
+575,Random Forest,friedman,Copula,99.36944807,0.024149,9
+576,Random Forest,glass,Separate models,99.96202129,7607.521012,9
+577,Random Forest,glass,Zero,80.63903293457246,0.00039589864769999997,9
+578,Random Forest,glass,Mean,82.61020267,0.00042890059440000005,9
+580,Random Forest,glass,Uniform,93.0127838,0.013983199219999999,9
+581,Random Forest,glass,Marginal,99.98027733,0.00063145,9
+582,Random Forest,glass,Conditional,99.98027733,0.014087,9
+583,Random Forest,glass,Gaussian,99.98027726,0.035247,9
+584,Random Forest,glass,Copula,99.98027735,0.028169,9
+585,Random Forest,precip,Separate models,99.98652169,14294.70791,9
+586,Random Forest,precip,Zero,80.63903293457246,0.0004423166925,9
+587,Random Forest,precip,Mean,99.5813922,0.0005043447437,9
+589,Random Forest,precip,Uniform,80.63903293457246,0.08637036761,9
+590,Random Forest,precip,Marginal,99.30948627,0.00114415,9
+591,Random Forest,precip,Conditional,99.30948595,0.023131,9
+592,Random Forest,precip,Gaussian,99.30948755,0.432178,9
+593,Random Forest,precip,Copula,99.3094874,0.106971,9
+594,Random Forest,abalone,Separate models,85.85905407,66801.8823,10
+595,Random Forest,abalone,Zero,80.63903293457246,0.0005049677979,10
+596,Random Forest,abalone,Mean,99.93403114,0.0005414061026,10
+598,Random Forest,abalone,Uniform,94.57923384,0.1039837649,10
+599,Random Forest,abalone,Marginal,99.945089,0.00187325,10
+600,Random Forest,abalone,Conditional,99.94508898,0.036317,10
+601,Random Forest,abalone,Gaussian,99.94508921,0.209602,10
+602,Random Forest,abalone,Copula,99.94508907,0.047965,10
+603,Random Forest,asia_gdp,Separate models,99.87137625,14605.24071,10
+604,Random Forest,asia_gdp,Zero,80.63903293457246,0.0003483165503,10
+605,Random Forest,asia_gdp,Mean,94.97558578,0.0004067244189,10
+607,Random Forest,asia_gdp,Uniform,72.96349034,0.002518212778,10
+608,Random Forest,asia_gdp,Marginal,97.59453916,0.00085735,10
+609,Random Forest,asia_gdp,Conditional,97.59453966,0.020923,10
+610,Random Forest,asia_gdp,Gaussian,97.59453933,0.019506,10
+611,Random Forest,asia_gdp,Copula,97.59453912,0.022457,10
+612,Random Forest,poker,Separate models,99.99999219,34605.24071,10
+613,Random Forest,poker,Zero,49.0636436,0.0005332197514,10
+614,Random Forest,poker,Mean,98.87916322,0.000586491303,10
+616,Random Forest,poker,Uniform,68.97207069,0.09775288938,10
+617,Random Forest,poker,Marginal,99.99992194,0.00189535,10
+618,Random Forest,poker,Conditional,99.99992193,0.037894,10
+619,Random Forest,poker,Gaussian,99.99992193,0.034893,10
+620,Random Forest,poker,Copula,99.99992194,0.040596,10
+621,Random Forest,possumbelly,Separate models,99.37137625,14605.24071,10
+622,Random Forest,possumbelly,Zero,80.63903293457246,0.0004268598625,10
+623,Random Forest,possumbelly,Mean,41.73372765,0.0004399364471,10
+625,Random Forest,possumbelly,Uniform,80.63903293457246,0.0034019527639999997,10
+626,Random Forest,possumbelly,Marginal,99.28441946,0.00094605,10
+627,Random Forest,possumbelly,Conditional,99.28441961,0.018739,10
+628,Random Forest,possumbelly,Gaussian,99.28441977,0.043847,10
+629,Random Forest,possumbelly,Copula,99.2844197,0.0442,10
+630,Random Forest,possumchest,Separate models,99.99981104,8078.956473,10
+631,Random Forest,possumchest,Zero,80.63903293457246,0.0004087647506,10
+632,Random Forest,possumchest,Mean,96.51643252,0.0004438260351,10
+634,Random Forest,possumchest,Uniform,80.63903293457246,0.00338597938,10
+635,Random Forest,possumchest,Marginal,99.94712213,0.0010828,10
+636,Random Forest,possumchest,Conditional,99.9471221,0.018561,10
+637,Random Forest,possumchest,Gaussian,99.94712223,0.038044,10
+638,Random Forest,possumchest,Copula,99.94712216,0.028014,10
+639,Random Forest,spending,Separate models,99.97137625,20605.24071,10
+640,Random Forest,spending,Zero,80.63903293457246,0.0004139624051,10
+641,Random Forest,spending,Mean,96.51643252,0.0004433099134,10
+643,Random Forest,spending,Uniform,80.63903293457246,0.003409133087,10
+644,Random Forest,spending,Marginal,99.94712213,0.00112985,10
+645,Random Forest,spending,Conditional,99.9471221,0.018284,10
+646,Random Forest,spending,Gaussian,99.94712223,0.031067,10
+647,Random Forest,spending,Copula,99.94712216,0.032835,10
+648,Random Forest,telescope,Separate models,99.86808463,81432.44444,10
+649,Random Forest,telescope,Zero,92.30290723,0.0005261165633,10
+650,Random Forest,telescope,Mean,52.62133774,0.0005806692434,10
+652,Random Forest,telescope,Uniform,80.63903293457246,0.1068689662,10
+653,Random Forest,telescope,Marginal,99.74607841,0.0018696999999999997,10
+654,Random Forest,telescope,Conditional,99.74607852,0.035751,10
+655,Random Forest,telescope,Gaussian,99.74607866,0.200919,10
+656,Random Forest,telescope,Copula,99.74607861,0.048224,10
+657,Random Forest,bikedaily,Separate models,99.71519191,32403.51991,11
+658,Random Forest,bikedaily,Zero,80.63903293457246,0.00048425135530000003,11
+659,Random Forest,bikedaily,Mean,99.92935795,0.0005458561517,11
+661,Random Forest,bikedaily,Uniform,92.02417756,0.08855238648,11
+662,Random Forest,bikedaily,Marginal,99.65507698,0.0024336,11
+663,Random Forest,bikedaily,Conditional,99.65507699,0.056947,11
+664,Random Forest,bikedaily,Gaussian,99.65507706,0.061722,11
+665,Random Forest,bikedaily,Copula,99.65507695,0.112559,11
+666,Random Forest,hybrid,Separate models,94.10778172,17574.56303,11
+667,Random Forest,hybrid,Zero,80.63903293457246,0.0004529713322,11
+668,Random Forest,hybrid,Mean,66.01378615,0.0005013609306,11
+670,Random Forest,hybrid,Uniform,78.45676236,0.008796725278,11
+671,Random Forest,hybrid,Marginal,94.05345565,0.00206445,11
+672,Random Forest,hybrid,Conditional,94.05345593,0.034206,11
+673,Random Forest,hybrid,Gaussian,94.05345506,0.047208,11
+674,Random Forest,hybrid,Copula,94.05345663,0.0407,11
+675,Random Forest,migration,Separate models,95.93976684,42406.0301,11
+676,Random Forest,migration,Zero,93.258771,0.0005895318149,11
+677,Random Forest,migration,Mean,93.6340592,0.0005658314476000001,11
+679,Random Forest,migration,Uniform,89.6783173,0.025735453499999998,11
+680,Random Forest,migration,Marginal,93.15490717,0.002035,11
+681,Random Forest,migration,Conditional,93.15490917,0.033746,11
+682,Random Forest,migration,Gaussian,93.15491015,0.083823,11
+683,Random Forest,migration,Copula,93.15490752,0.061924,11
+684,Random Forest,mtcars,Separate models,92.93976684,32406.0301,11
+685,Random Forest,mtcars,Zero,80.63903293457246,0.0004139652252,11
+686,Random Forest,mtcars,Mean,75.63432737,0.0004214136384,11
+688,Random Forest,mtcars,Uniform,80.63903293457246,0.001487260602,11
+689,Random Forest,mtcars,Marginal,63.43373206,0.0018647,11
+690,Random Forest,mtcars,Conditional,63.43374177,0.030024,11
+691,Random Forest,mtcars,Gaussian,63.43374009,0.037458,11
+692,Random Forest,mtcars,Copula,63.43373743,0.040483,11
+693,Random Forest,telecom,Separate models,99.75723219,53421.34911,11
+694,Random Forest,telecom,Zero,80.63903293457246,0.0005331114068,11
+695,Random Forest,telecom,Mean,80.63903293457246,0.0005526305285,11
+697,Random Forest,telecom,Uniform,92.41251416,0.1028754548,11
+698,Random Forest,telecom,Marginal,99.74012227,0.00324365,11
+699,Random Forest,telecom,Conditional,99.74012227,0.055213,11
+700,Random Forest,telecom,Gaussian,99.74012257,0.077546,11
+701,Random Forest,telecom,Copula,99.74012238,0.143115,11
+702,Random Forest,winequality,Separate models,99.9973826,85092.45339,11
+703,Random Forest,winequality,Zero,98.97221039,0.0005257598299,11
+704,Random Forest,winequality,Mean,87.06707192,0.0005683781523,11
+706,Random Forest,winequality,Uniform,99.99085918,0.06942379433000001,11
+707,Random Forest,winequality,Marginal,99.99250012,0.0034179500000000003,11
+708,Random Forest,winequality,Conditional,99.99250013,0.056212,11
+709,Random Forest,winequality,Gaussian,99.99250012,0.125065,11
+710,Random Forest,winequality,Copula,99.89250012,0.135065,11
+711,Random Forest,winequality-red,Separate models,99.99480456,88049.33762,11
+712,Random Forest,winequality-red,Zero,85.45068138,0.0005380008950000001,11
+713,Random Forest,winequality-red,Mean,86.32533184,0.0005376122793,11
+715,Random Forest,winequality-red,Uniform,99.99995569,0.06961296012,11
+716,Random Forest,winequality-red,Marginal,99.62323378,0.00323465,11
+717,Random Forest,winequality-red,Conditional,99.62323383,0.053325,11
+718,Random Forest,winequality-red,Gaussian,99.62323376,0.07908,11
+719,Random Forest,winequality-red,Copula,99.62323378,0.10283,11
+720,Random Forest,winequality-white,Separate models,99.99480456,88049.33762,11
+721,Random Forest,winequality-white,Zero,80.63903293457246,0.0005212810206,11
+722,Random Forest,winequality-white,Mean,90.64500488,0.0006286813476,11
+724,Random Forest,winequality-white,Uniform,80.63903293457246,0.07180213042,11
+725,Random Forest,winequality-white,Marginal,99.79626231,0.0033369999999999997,11
+726,Random Forest,winequality-white,Conditional,99.79626233,0.058561,11
+727,Random Forest,winequality-white,Gaussian,99.79626225,0.132887,11
+728,Random Forest,winequality-white,Copula,99.79626225,0.132887,11
+729,Random Forest,adult,Separate models,99.71772825,123147.1366,12
+730,Random Forest,adult,Zero,80.63903293457246,0.0006171636075999999,12
+731,Random Forest,adult,Mean,45.58888728,0.0006989101605000001,12
+733,Random Forest,adult,Uniform,80.63903293457246,0.11446500849999999,12
+734,Random Forest,adult,Marginal,99.91227256,0.0061046,12
+735,Random Forest,adult,Conditional,99.91227256,0.153092,12
+736,Random Forest,adult,Gaussian,99.91227256,0.12221,12
+737,Random Forest,adult,Copula,99.91227256,0.12201,12
+738,Random Forest,forest,Separate models,97.94913623,84007.8985,12
+739,Random Forest,forest,Zero,97.3649005,0.0005604226464,12
+740,Random Forest,forest,Mean,91.45101199,0.0005602535351,12
+742,Random Forest,forest,Uniform,97.95043196,0.04436227777,12
+743,Random Forest,forest,Marginal,97.22139388,0.0038117999999999997,12
+744,Random Forest,forest,Conditional,97.22139365,0.097422,12
+745,Random Forest,forest,Gaussian,97.22139551,0.137124,12
+746,Random Forest,forest,Copula,97.22139517,0.201802,12
+747,Random Forest,forestfire,Separate models,98.07489817,68978.38027,12
+748,Random Forest,forestfire,Zero,94.1048286,0.0005038678911000001,12
+749,Random Forest,forestfire,Mean,88.80397604,0.0005819105098,12
+751,Random Forest,forestfire,Uniform,97.32654893,0.04452265862,12
+752,Random Forest,forestfire,Marginal,97.34268205,0.0083467,12
+753,Random Forest,forestfire,Conditional,97.34268184,0.091925,12
+754,Random Forest,forestfire,Gaussian,97.34268339,0.14074,12
+755,Random Forest,forestfire,Copula,97.34268328,0.181594,12
+756,Random Forest,heartfailure,Separate models,99.99429142,80978.38027,12
+757,Random Forest,heartfailure,Zero,97.42885844,0.0005404456962000001,12
+758,Random Forest,heartfailure,Mean,80.63903293457246,0.0005467215837,12
+760,Random Forest,heartfailure,Uniform,80.63903293457246,0.02378827308,12
+761,Random Forest,heartfailure,Marginal,99.99429142,0.0039166,12
+762,Random Forest,heartfailure,Conditional,99.99429141,0.072668,12
+763,Random Forest,heartfailure,Gaussian,99.99429137,0.089377,12
+764,Random Forest,heartfailure,Copula,99.99429142,0.140497,12
+765,Random Forest,ozone,Separate models,99.99856452,68978.38027,12
+766,Random Forest,ozone,Zero,80.63903293457246,0.000514848791,12
+767,Random Forest,ozone,Mean,93.14543253,0.0004747273281,12
+769,Random Forest,ozone,Uniform,80.63903293457246,0.01183811736,12
+770,Random Forest,ozone,Marginal,99.99856452,0.00348505,12
+771,Random Forest,ozone,Conditional,99.99856452,0.071837,12
+772,Random Forest,ozone,Gaussian,99.99856452,0.195259,12
+773,Random Forest,ozone,Copula,99.99856452,0.300255,12
+774,Random Forest,seoulbike,Separate models,99.99958947,70978.38027,12
+775,Random Forest,seoulbike,Zero,94.14940921,0.0006667762525,12
+776,Random Forest,seoulbike,Mean,93.96426154,0.000680946457,12
+778,Random Forest,seoulbike,Uniform,81.59471457,0.156923215,12
+779,Random Forest,seoulbike,Marginal,99.99158947,0.00626275,12
+780,Random Forest,seoulbike,Conditional,99.99158947,0.125255,12
+781,Random Forest,seoulbike,Gaussian,99.99158947,0.125255,12
+782,Random Forest,seoulbike,Copula,99.99158947,0.125255,12
+783,Random Forest,servo,Separate models,97.52608545,69295.67665,12
+784,Random Forest,servo,Zero,80.63903293457246,0.0005113995942,12
+785,Random Forest,servo,Mean,55.29189907,0.0005167340279,12
+787,Random Forest,servo,Uniform,80.63903293457246,0.008365827443,12
+788,Random Forest,servo,Marginal,93.52608572,0.00429445,12
+789,Random Forest,servo,Conditional,93.52608547,0.074416,12
+790,Random Forest,servo,Gaussian,93.52608677,0.08194,12
+791,Random Forest,servo,Copula,93.52608545,0.104628,12
+792,Random Forest,stockreturn,Separate models,99.89471765,66295.67665,12
+793,Random Forest,stockreturn,Zero,80.63903293457246,0.0005422893281,12
+794,Random Forest,stockreturn,Mean,60.12006733,0.00048042299890000003,12
+796,Random Forest,stockreturn,Uniform,80.63903293457246,0.02877708921,12
+797,Random Forest,stockreturn,Marginal,99.80744987,0.00381455,12
+798,Random Forest,stockreturn,Conditional,99.80744984,0.081218,12
+799,Random Forest,stockreturn,Gaussian,99.80745011,0.340935,12
+800,Random Forest,stockreturn,Copula,99.80744987,0.1411,12
+801,Random Forest,stockrisk,Separate models,97.95427001,69168.84191,12
+802,Random Forest,stockrisk,Zero,80.63903293457246,0.0005251042018000001,12
+803,Random Forest,stockrisk,Mean,68.60608789,0.0005519754107000001,12
+805,Random Forest,stockrisk,Uniform,66.23743948,0.02568308046,12
+806,Random Forest,stockrisk,Marginal,97.99128247,0.00312965,12
+807,Random Forest,stockrisk,Conditional,97.99128252,0.07259,12
+808,Random Forest,stockrisk,Gaussian,97.99128284,0.129143,12
+809,Random Forest,stockrisk,Copula,97.99128271,0.110327,12
+810,Random Forest,wine,Separate models,99.78948146,327538.4541,12
+811,Random Forest,wine,Zero,87.48494453,0.000581764167,12
+812,Random Forest,wine,Mean,87.42484783,0.0005572330374000001,12
+814,Random Forest,wine,Uniform,97.59855113,0.0855188835,12
+815,Random Forest,wine,Marginal,97.5960473,0.0099374,13
+816,Random Forest,wine,Conditional,99.99298204,0.103563,13
+817,Random Forest,wine,Gaussian,99.26855927,0.6411821599,13
+818,Random Forest,wine,Copula,94.50407403,82.3631123,13
+819,Random Forest,heart_disease,Separate models,98.00391385,103893.6235,13
+820,Random Forest,heart_disease,Zero,78.66889415,0.0005229735004,13
+821,Random Forest,heart_disease,Mean,66.19427431,0.000592069398,13
+823,Random Forest,heart_disease,Uniform,90.76302905,0.021511809320000002,13
+824,Random Forest,heart_disease,Marginal,98.38646858,0.0077471499999999995,13
+825,Random Forest,heart_disease,Conditional,98.38646874,0.1677,13
+826,Random Forest,heart_disease,Gaussian,98.38646941,0.230751,13
+827,Random Forest,heart_disease,Copula,98.38646824,0.246471,13

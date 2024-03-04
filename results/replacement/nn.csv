@@ -1,0 +1,761 @@
+,Model,dataset,Replacement Strategy,accuracy,time,features
+0,Neural network,3droad,Separate models,99.99530387,562.3127656,3
+1,Neural network,3droad,Zero,76.14115240874268,1.6492243970000002e-05,3
+2,Neural network,3droad,Mean,99.99908418,1.6600254809999998e-05,3
+4,Neural network,3droad,Uniform,76.14115240874268,0.002474781315,3
+5,Neural network,3droad,Marginal,98.0769323,0.00042770000000000004,3
+6,Neural network,3droad,Conditional,98.07693222,0.008391,3
+7,Neural network,3droad,Gaussian,98.07693525,0.008962,3
+8,Neural network,3droad,Copula,98.07693231,0.007423,3
+9,Neural network,apartments,Separate models,98.03603393,6.225592852,3
+10,Neural network,apartments,Zero,76.14115240874268,1.723812177e-05,3
+11,Neural network,apartments,Mean,90.86740983,1.761060495e-05,3
+13,Neural network,apartments,Uniform,76.14115240874268,0.0002759636365,3
+14,Neural network,apartments,Marginal,98.57011797,0.00024009999999999998,3
+15,Neural network,apartments,Conditional,98.57011814,0.004738,3
+16,Neural network,apartments,Gaussian,98.57011789,0.005126,3
+17,Neural network,apartments,Copula,98.57011779,0.004294,3
+18,Neural network,brainweight,Separate models,98.20649075,10.02281928,3
+19,Neural network,brainweight,Zero,76.14115240874268,1.625347741e-05,3
+20,Neural network,brainweight,Mean,99.91329554,0.0003210708763,3
+22,Neural network,brainweight,Uniform,76.14115240874268,0.0004382274543,3
+23,Neural network,brainweight,Marginal,97.6489924,0.00028605000000000004,3
+24,Neural network,brainweight,Conditional,97.64899247,0.007437,3
+25,Neural network,brainweight,Gaussian,97.64899255,0.009188,3
+26,Neural network,brainweight,Copula,97.64899255,0.010499,3
+27,Neural network,chickweight,Separate models,99.48640004,18.80045938,3
+28,Neural network,chickweight,Zero,76.14115240874268,1.561568045e-05,3
+29,Neural network,chickweight,Mean,99.94675391,1.603277566e-05,3
+31,Neural network,chickweight,Uniform,76.14115240874268,0.0008538118029000001,3
+32,Neural network,chickweight,Marginal,99.40789605,0.00031985,3
+33,Neural network,chickweight,Conditional,99.40789604,0.00672,3
+34,Neural network,chickweight,Gaussian,99.4078961,0.006985,3
+35,Neural network,chickweight,Copula,99.40789605,0.00646,3
+36,Neural network,htwtindex,Separate models,99.7725822,9.771246195,3
+37,Neural network,htwtindex,Zero,76.14115240874268,2.840316657e-05,3
+38,Neural network,htwtindex,Mean,76.14115240874268,0.0004743669828,3
+40,Neural network,htwtindex,Uniform,76.14115240874268,0.0008818226981,3
+41,Neural network,htwtindex,Marginal,99.77241985,0.0003163,3
+42,Neural network,htwtindex,Conditional,99.77241982,0.006541,3
+43,Neural network,htwtindex,Gaussian,99.77241982,0.006841,3
+44,Neural network,htwtindex,Copula,99.77241988,0.00679,3
+45,Neural network,jewellery,Separate models,99.98911321,8.348390102,3
+46,Neural network,jewellery,Zero,76.14115240874268,1.705549434e-05,3
+47,Neural network,jewellery,Mean,99.9990796,0.0003052390407,3
+49,Neural network,jewellery,Uniform,76.14115240874268,0.0007843341708,3
+50,Neural network,jewellery,Marginal,99.46325568,0.00035805,3
+51,Neural network,jewellery,Conditional,99.46325567,0.005398,3
+52,Neural network,jewellery,Gaussian,99.46325566,0.007412,3
+53,Neural network,jewellery,Copula,99.46325567,0.006167,3
+54,Neural network,questions,Separate models,99.68780406,8.656043291,3
+55,Neural network,questions,Zero,76.14115240874268,2.810599587e-05,3
+56,Neural network,questions,Mean,99.40633884,0.0001989813718,3
+58,Neural network,questions,Uniform,76.14115240874268,0.0007838601565,3
+59,Neural network,questions,Marginal,99.69213248,0.00032304999999999996,3
+60,Neural network,questions,Conditional,99.69213247,0.006334,3
+61,Neural network,questions,Gaussian,99.69213245,0.007712,3
+62,Neural network,questions,Copula,99.69213247,0.009165,3
+63,Neural network,spx,Separate models,99.9828349,17.17284465,3
+64,Neural network,spx,Zero,76.14115240874268,1.812811954e-05,3
+65,Neural network,spx,Mean,99.73538238,1.634785873e-05,3
+67,Neural network,spx,Uniform,76.14115240874268,0.001033698277,3
+68,Neural network,spx,Marginal,99.99984651,0.00039365,3
+69,Neural network,spx,Conditional,99.99984651,0.008716,3
+70,Neural network,spx,Gaussian,99.9998465,0.008412,3
+71,Neural network,spx,Copula,99.99984651,0.006637,3
+72,Neural network,advertisements,Separate models,97.9738208,33.18942857,4
+73,Neural network,advertisements,Zero,76.14115240874268,1.9749041760000003e-05,4
+74,Neural network,advertisements,Mean,93.3976726,1.990050981e-05,4
+76,Neural network,advertisements,Uniform,76.14115240874268,0.000818552653,4
+77,Neural network,advertisements,Marginal,97.3863589,0.0002956,4
+78,Neural network,advertisements,Conditional,97.38635902,0.005665,4
+79,Neural network,advertisements,Gaussian,97.3863589,0.008035,4
+80,Neural network,advertisements,Copula,97.38635857,0.005406,4
+81,Neural network,advertising,Separate models,97.9738208,41.90234876,4
+82,Neural network,advertising,Zero,76.14115240874268,1.969789014e-05,4
+83,Neural network,advertising,Mean,93.3976726,1.955241868e-05,4
+85,Neural network,advertising,Uniform,76.14115240874268,0.001128322002,4
+86,Neural network,advertising,Marginal,97.3863589,0.0002774,4
+87,Neural network,advertising,Conditional,97.38635902,0.005083,4
+88,Neural network,advertising,Gaussian,97.3863589,0.005538,4
+89,Neural network,advertising,Copula,97.38635857,0.004988,4
+90,Neural network,blood,Separate models,99.93100577,7.050828457,4
+91,Neural network,blood,Zero,76.14115240874268,1.764569688e-05,4
+92,Neural network,blood,Mean,87.15173717,1.792085316e-05,4
+94,Neural network,blood,Uniform,76.14115240874268,0.002229800458,4
+95,Neural network,blood,Marginal,98.41662882,0.00038485,4
+96,Neural network,blood,Conditional,98.41662892,0.00785,4
+97,Neural network,blood,Gaussian,98.41663303,0.008128,4
+98,Neural network,blood,Copula,98.41662876,0.007719,4
+99,Neural network,const-maint,Separate models,99.21898758,29.37649965,4
+100,Neural network,const-maint,Zero,76.14115240874268,2.058029175e-05,4
+101,Neural network,const-maint,Mean,99.14023315,2.013141459e-05,4
+103,Neural network,const-maint,Uniform,76.14115240874268,0.00031886072589999996,4
+104,Neural network,const-maint,Marginal,99.9999977,0.0002691,4
+105,Neural network,const-maint,Conditional,99.9999977,0.02119,4
+106,Neural network,const-maint,Gaussian,99.9999977,0.00521,4
+107,Neural network,const-maint,Copula,99.9999977,0.004432,4
+108,Neural network,diamonds_filter,Separate models,99.99574125,20.75824714,4
+109,Neural network,diamonds_filter,Zero,76.14115240874268,1.9190528180000002e-05,4
+110,Neural network,diamonds_filter,Mean,97.22834493,2.015856781e-05,4
+112,Neural network,diamonds_filter,Uniform,76.14115240874268,0.002202457914,4
+113,Neural network,diamonds_filter,Marginal,99.98649092,0.00036205,4
+114,Neural network,diamonds_filter,Conditional,99.9864909,0.006996,4
+115,Neural network,diamonds_filter,Gaussian,99.98649091,0.00927,4
+116,Neural network,diamonds_filter,Copula,99.9864909,0.007237,4
+117,Neural network,diamonds_select,Separate models,98.89947537,84.76603866,4
+118,Neural network,diamonds_select,Zero,76.14115240874268,1.911570809e-05,4
+119,Neural network,diamonds_select,Mean,99.98926541,0.0002089489373,4
+121,Neural network,diamonds_select,Uniform,76.14115240874268,0.002688476605,4
+122,Neural network,diamonds_select,Marginal,98.47118936,0.00043880000000000004,4
+123,Neural network,diamonds_select,Conditional,98.47118937,0.008585,4
+124,Neural network,diamonds_select,Gaussian,98.4711894,0.008874,4
+125,Neural network,diamonds_select,Copula,98.47118946,0.008812,4
+126,Neural network,economics,Separate models,98.12339566,28.6644311,4
+127,Neural network,economics,Zero,76.14115240874268,1.93093325e-05,4
+128,Neural network,economics,Mean,98.51597643,1.886015189e-05,4
+130,Neural network,economics,Uniform,76.14115240874268,0.002194447711,4
+131,Neural network,economics,Marginal,96.14947007,0.00034185,4
+132,Neural network,economics,Conditional,96.14947066,0.007635,4
+133,Neural network,economics,Gaussian,96.14947022,0.00711,4
+134,Neural network,economics,Copula,96.14947071,0.011086,4
+135,Neural network,iris,Separate models,99.99244966,69.44966292,4
+136,Neural network,iris,Zero,76.14115240874268,1.991763115e-05,4
+137,Neural network,iris,Mean,96.06461567,1.981091499e-05,4
+139,Neural network,iris,Uniform,76.14115240874268,0.0006709602547,4
+140,Neural network,iris,Marginal,99.99822401,0.0002718,4
+141,Neural network,iris,Conditional,99.99822402,0.004944,4
+142,Neural network,iris,Gaussian,99.99822402,0.007332,4
+143,Neural network,iris,Copula,99.99822403,0.005021,4
+144,Neural network,petrol,Separate models,65.81668566,44.5584147,4
+145,Neural network,petrol,Zero,76.14115240874268,3.500297666e-05,4
+146,Neural network,petrol,Mean,76.14115240874268,0.00021749556060000002,4
+148,Neural network,petrol,Uniform,83.86799648,0.0005499390215,4
+149,Neural network,petrol,Marginal,60.23286281,0.00021945,4
+150,Neural network,petrol,Conditional,60.23286627,0.004276,4
+151,Neural network,petrol,Gaussian,60.23286336,0.006609,4
+152,Neural network,petrol,Copula,60.23286167,0.004388,4
+153,Neural network,power,Separate models,99.95212621,29552.5318,4
+154,Neural network,power,Zero,95.09402098,1.931534391e-05,4
+155,Neural network,power,Mean,98.47303575,1.907276385e-05,4
+157,Neural network,power,Uniform,76.14115240874268,0.0025751114080000003,4
+158,Neural network,power,Marginal,99.09759556,0.0004398,4
+159,Neural network,power,Conditional,99.0975956,0.008971,4
+160,Neural network,power,Gaussian,99.09759565,0.009032,4
+161,Neural network,power,Copula,99.09759555,0.008947,4
+162,Neural network,startups,Separate models,93.70038094,57.75087523,4
+163,Neural network,startups,Zero,76.14115240874268,2.02588474e-05,4
+164,Neural network,startups,Mean,99.74715525,2.154238084e-05,4
+166,Neural network,startups,Uniform,76.14115240874268,0.00037416863439999995,4
+167,Neural network,startups,Marginal,94.6980544,0.0002494,4
+168,Neural network,startups,Conditional,94.69805442,0.004601,4
+169,Neural network,startups,Gaussian,94.69805456,0.005122,4
+170,Neural network,startups,Copula,94.69805421,0.004767,4
+171,Neural network,unemploy,Separate models,98.12339566,67.96766162,4
+172,Neural network,unemploy,Zero,76.14115240874268,2.387499809e-05,4
+173,Neural network,unemploy,Mean,98.51597643,0.0003335494117,4
+175,Neural network,unemploy,Uniform,76.14115240874268,0.002151832569,4
+176,Neural network,unemploy,Marginal,96.14947007,0.000339,4
+177,Neural network,unemploy,Conditional,96.14947066,0.007074,4
+178,Neural network,unemploy,Gaussian,96.14947022,0.007013,4
+179,Neural network,unemploy,Copula,96.14947071,0.005769,4
+180,Neural network,airfoil,Separate models,99.93280414,209.4242055,5
+181,Neural network,airfoil,Zero,76.14115240874268,2.2397019649999997e-05,5
+182,Neural network,airfoil,Mean,99.25183391,2.195921089e-05,5
+184,Neural network,airfoil,Uniform,76.14115240874268,0.004199891431,5
+185,Neural network,airfoil,Marginal,90.34827622,0.00046895,5
+186,Neural network,airfoil,Conditional,90.34827607,0.008897,5
+187,Neural network,airfoil,Gaussian,90.34828235,0.009485,5
+188,Neural network,airfoil,Copula,90.34827625,0.00952,5
+189,Neural network,airfoil-self-noise,Separate models,99.93280414,199.9792602,5
+190,Neural network,airfoil-self-noise,Zero,76.14115240874268,2.205090812e-05,5
+191,Neural network,airfoil-self-noise,Mean,99.25183391,2.1613814609999997e-05,5
+193,Neural network,airfoil-self-noise,Uniform,76.14115240874268,0.002826289644,5
+194,Neural network,airfoil-self-noise,Marginal,90.34827622,0.00047115000000000004,5
+195,Neural network,airfoil-self-noise,Conditional,90.34827607,0.007618,5
+196,Neural network,airfoil-self-noise,Gaussian,90.34828235,0.009831,5
+197,Neural network,airfoil-self-noise,Copula,90.34827625,0.011074,5
+198,Neural network,japanemg,Separate models,89.83191851,65.08005285,5
+199,Neural network,japanemg,Zero,76.14115240874268,2.218882243e-05,5
+200,Neural network,japanemg,Mean,41.4091774,2.3879845939999998e-05,5
+202,Neural network,japanemg,Uniform,76.14115240874268,0.0001989012718,5
+203,Neural network,japanemg,Marginal,92.12634994,0.00021810000000000002,5
+204,Neural network,japanemg,Conditional,92.1263506,0.005059,5
+205,Neural network,japanemg,Gaussian,92.12634939,0.005479,5
+206,Neural network,japanemg,Copula,92.12634914,0.007192,5
+207,Neural network,linnerud,Separate models,98.16149215,70.30740333,5
+208,Neural network,linnerud,Zero,76.14115240874268,2.5588103700000003e-05,5
+209,Neural network,linnerud,Mean,85.44143146,2.5097642630000002e-05,5
+211,Neural network,linnerud,Uniform,76.14115240874268,0.0001974021367,5
+212,Neural network,linnerud,Marginal,98.93455352,0.00028189999999999997,5
+213,Neural network,linnerud,Conditional,98.93455269,0.005339,5
+214,Neural network,linnerud,Gaussian,98.93455323,0.00524,5
+215,Neural network,linnerud,Copula,98.93455344,0.004782,5
+216,Neural network,sacramento,Separate models,99.83572903,95.60568213,5
+217,Neural network,sacramento,Zero,76.14115240874268,2.256094635e-05,5
+218,Neural network,sacramento,Mean,99.83580663,2.18997528e-05,5
+220,Neural network,sacramento,Uniform,76.14115240874268,0.004075371115,5
+221,Neural network,sacramento,Marginal,99.90011465,0.000491,5
+222,Neural network,sacramento,Conditional,99.90011465,0.008862,5
+223,Neural network,sacramento,Gaussian,99.90011465,0.014608,5
+224,Neural network,sacramento,Copula,99.90011465,0.009243,5
+225,Neural network,uber,Separate models,99.93004324,17132.64426,5
+226,Neural network,uber,Zero,76.14115240874268,2.177825119e-05,5
+227,Neural network,uber,Mean,99.93618663,2.1867730400000003e-05,5
+229,Neural network,uber,Uniform,76.14115240874268,0.004226608629,5
+230,Neural network,uber,Marginal,99.80533568,0.00048005,5
+231,Neural network,uber,Conditional,99.8053357,0.009178,5
+232,Neural network,uber,Gaussian,99.80533577,0.009493,5
+233,Neural network,uber,Copula,99.80533536,0.009624,5
+234,Neural network,insurance,Separate models,99.98974363,817.3996456,6
+235,Neural network,insurance,Zero,76.14115240874268,3.561260483e-05,6
+236,Neural network,insurance,Mean,80.72654513,2.535469604e-05,6
+238,Neural network,insurance,Uniform,76.14115240874268,0.004588516569,6
+239,Neural network,insurance,Marginal,99.42187006,0.0005591999999999999,6
+240,Neural network,insurance,Conditional,99.42187008,0.009641,6
+241,Neural network,insurance,Gaussian,99.42186973,0.012174,6
+242,Neural network,insurance,Copula,99.42186953,0.010335,6
+243,Neural network,kiva,Separate models,99.99491929,1452.40002,6
+244,Neural network,kiva,Zero,76.14115240874268,2.3633660690000002e-05,6
+245,Neural network,kiva,Mean,95.28745095,2.084343361e-05,6
+247,Neural network,kiva,Uniform,76.14115240874268,0.003899445863,6
+248,Neural network,kiva,Marginal,94.73018032,0.0005176499999999999,6
+249,Neural network,kiva,Conditional,94.73018029,0.008811,6
+250,Neural network,kiva,Gaussian,94.73018139,0.010603,6
+251,Neural network,kiva,Copula,94.7301788,0.011988,6
+252,Neural network,powerlifting,Separate models,99.57477397,4521.816916,6
+253,Neural network,powerlifting,Zero,76.14115240874268,2.9865279339999997e-05,6
+254,Neural network,powerlifting,Mean,99.56546564,2.533187288e-05,6
+256,Neural network,powerlifting,Uniform,76.14115240874268,0.004588412914,6
+257,Neural network,powerlifting,Marginal,99.76564327,0.0005075500000000001,6
+258,Neural network,powerlifting,Conditional,99.7656433,0.009669,6
+259,Neural network,powerlifting,Gaussian,99.76564319,0.010763,6
+260,Neural network,powerlifting,Copula,99.76564325,0.010384,6
+261,Neural network,seeds,Separate models,99.2047185,277.8063951,6
+262,Neural network,seeds,Zero,76.14115240874268,2.571797025e-05,6
+263,Neural network,seeds,Mean,90.46485367,2.589464188e-05,6
+265,Neural network,seeds,Uniform,76.14115240874268,0.001613137397,6
+266,Neural network,seeds,Marginal,99.25775313,0.0002964,6
+267,Neural network,seeds,Conditional,99.25775341,0.007449,6
+268,Neural network,seeds,Gaussian,99.25775332,0.006107,6
+269,Neural network,seeds,Copula,99.25775334,0.005992,6
+270,Neural network,walmart,Separate models,99.99869404,2700.690316,6
+271,Neural network,walmart,Zero,76.14115240874268,2.675131595e-05,6
+272,Neural network,walmart,Mean,99.50622128,0.0002909612439,6
+274,Neural network,walmart,Uniform,76.14115240874268,0.004583444786,6
+275,Neural network,walmart,Marginal,97.72320724,0.0013559,6
+276,Neural network,walmart,Conditional,97.72320739,0.010634,6
+277,Neural network,walmart,Gaussian,97.73120504,0.01075,6
+278,Neural network,walmart,Copula,97.72320731,0.013155,6
+279,Neural network,yatch,Separate models,98.58984277,245.9978755,6
+280,Neural network,yatch,Zero,76.14115240874268,2.52884042e-05,6
+281,Neural network,yatch,Mean,68.86365697,2.593428481e-05,6
+283,Neural network,yatch,Uniform,76.14115240874268,0.001941225646,6
+284,Neural network,yatch,Marginal,98.47937317,0.00032859999999999996,6
+285,Neural network,yatch,Conditional,98.47937315,0.006618,6
+286,Neural network,yatch,Gaussian,98.47937336,0.006792,6
+287,Neural network,yatch,Copula,98.47937339,0.006617,6
+288,Neural network,admission,Separate models,93.37315159,441.553396,7
+289,Neural network,admission,Zero,76.14115240874268,2.937575543e-05,7
+290,Neural network,admission,Mean,93.37315159,2.837316918e-05,7
+292,Neural network,admission,Uniform,76.14115240874268,0.002888115392,7
+293,Neural network,admission,Marginal,93.81947634,0.00044039999999999997,7
+294,Neural network,admission,Conditional,93.81947741,0.008438,7
+295,Neural network,admission,Gaussian,93.81947743,0.009254,7
+296,Neural network,admission,Copula,93.81947719,0.009167,7
+297,Neural network,auto-mpg,Separate models,99.48194121,788.2322562,7
+298,Neural network,auto-mpg,Zero,76.14115240874268,4.426352794e-05,7
+299,Neural network,auto-mpg,Mean,81.71808466,2.8896625229999998e-05,7
+301,Neural network,auto-mpg,Uniform,76.14115240874268,0.002617221255,7
+302,Neural network,auto-mpg,Marginal,99.15775339,0.0004125,7
+303,Neural network,auto-mpg,Conditional,99.15775349,0.006866,7
+304,Neural network,auto-mpg,Gaussian,99.15775307,0.008099,7
+305,Neural network,auto-mpg,Copula,99.15775349,0.008564,7
+306,Neural network,autompg,Separate models,99.48194121,1820.713012,7
+307,Neural network,autompg,Zero,76.14115240874268,2.938378774e-05,7
+308,Neural network,autompg,Mean,81.71808466,2.8872288190000002e-05,7
+310,Neural network,autompg,Uniform,76.14115240874268,0.0006035522652,7
+311,Neural network,autompg,Marginal,99.15775339,0.00042804999999999997,7
+312,Neural network,autompg,Conditional,99.15775349,0.00791,7
+313,Neural network,autompg,Gaussian,99.15775307,0.008195,7
+314,Neural network,autompg,Copula,99.15775349,0.009111,7
+315,Neural network,chanceadmit,Separate models,98.28567042,337.5339167,7
+316,Neural network,chanceadmit,Zero,76.14115240874268,2.9035806660000002e-05,7
+317,Neural network,chanceadmit,Mean,98.28567042,2.859747771e-05,7
+319,Neural network,chanceadmit,Uniform,76.14115240874268,0.002609094024,7
+320,Neural network,chanceadmit,Marginal,98.55014807,0.00042009999999999997,7
+321,Neural network,chanceadmit,Conditional,98.55014829,0.007904,7
+322,Neural network,chanceadmit,Gaussian,98.5501483,0.008499,7
+323,Neural network,chanceadmit,Copula,98.55014823,0.008197,7
+324,Neural network,computer,Separate models,99.29481939,1618.636309,7
+325,Neural network,computer,Zero,41.33164666,2.731938293e-05,7
+326,Neural network,computer,Mean,98.43800372,2.67512902e-05,7
+328,Neural network,computer,Uniform,76.14115240874268,0.0007615287822,7
+329,Neural network,computer,Marginal,98.62390872,0.00035045,7
+330,Neural network,computer,Conditional,98.62390897,0.007313,7
+331,Neural network,computer,Gaussian,98.62391166,0.010278,7
+332,Neural network,computer,Copula,98.62390883,0.00687,7
+333,Neural network,diamond,Separate models,99.98982923,3590.054533,7
+334,Neural network,diamond,Zero,76.14115240874268,2.9526710509999998e-05,7
+335,Neural network,diamond,Mean,95.92926743,2.8404698230000003e-05,7
+337,Neural network,diamond,Uniform,55.79134037,0.002611031876,7
+338,Neural network,diamond,Marginal,99.88191813,0.0006391,7
+339,Neural network,diamond,Conditional,99.88191813,0.013342,7
+340,Neural network,diamond,Gaussian,99.88191819,0.01405,7
+341,Neural network,diamond,Copula,99.88191807,0.012071,7
+342,Neural network,france,Separate models,99.97750337,5249.131672,7
+343,Neural network,france,Zero,76.14115240874268,2.802291783e-05,7
+344,Neural network,france,Mean,99.82327528,2.976788174e-05,7
+346,Neural network,france,Uniform,76.14115240874268,0.002609495196,7
+347,Neural network,france,Marginal,99.79739201,0.0006245,7
+348,Neural network,france,Conditional,99.79739201,0.011377,7
+349,Neural network,france,Gaussian,99.79739203,0.013506,7
+350,Neural network,france,Copula,99.79739206,0.011979,7
+351,Neural network,germany,Separate models,99.99993868,3339.812831,7
+352,Neural network,germany,Zero,76.14115240874268,2.914603551e-05,7
+353,Neural network,germany,Mean,99.98629423,2.805801594e-05,7
+355,Neural network,germany,Uniform,76.14115240874268,0.002610761578,7
+356,Neural network,germany,Marginal,99.9694456,0.0006456,7
+357,Neural network,germany,Conditional,99.96944559,0.012113,7
+358,Neural network,germany,Gaussian,99.96944562,0.014001,7
+359,Neural network,germany,Copula,99.96944562,0.012474,7
+360,Neural network,raotbl6,Separate models,99.93664036,859.1375086,7
+361,Neural network,raotbl6,Zero,76.14115240874268,3.060410662e-05,7
+362,Neural network,raotbl6,Mean,99.51283701,0.0007852942769,7
+364,Neural network,raotbl6,Uniform,76.14115240874268,0.001153425874,7
+365,Neural network,raotbl6,Marginal,99.96247124,0.00031895000000000003,7
+366,Neural network,raotbl6,Conditional,99.96247125,0.007327,7
+367,Neural network,raotbl6,Gaussian,99.96247122,0.006362,7
+368,Neural network,raotbl6,Copula,99.96247124,0.006318,7
+369,Neural network,raotbl7,Separate models,99.4660166,545.6648896,7
+370,Neural network,raotbl7,Zero,76.14115240874268,2.995869009e-05,7
+371,Neural network,raotbl7,Mean,99.42682118,2.994764142e-05,7
+373,Neural network,raotbl7,Uniform,76.14115240874268,0.001160992681,7
+374,Neural network,raotbl7,Marginal,99.51948532,0.00032125000000000003,7
+375,Neural network,raotbl7,Conditional,99.51948537,0.00635,7
+376,Neural network,raotbl7,Gaussian,99.5194853,0.007847,7
+377,Neural network,raotbl7,Copula,99.51948544,0.012296,7
+378,Neural network,realestate,Separate models,99.98033136,764.1600871,7
+379,Neural network,realestate,Zero,76.14115240874268,2.9140789139999998e-05,7
+380,Neural network,realestate,Mean,76.14115240874268,2.822000615e-05,7
+382,Neural network,realestate,Uniform,76.14115240874268,0.003171758597,7
+383,Neural network,realestate,Marginal,99.9992707,0.00052175,7
+384,Neural network,realestate,Conditional,99.99927071,0.009269,7
+385,Neural network,realestate,Gaussian,99.99927075,0.009861,7
+386,Neural network,realestate,Copula,99.99927071,0.014969,7
+387,Neural network,slump,Separate models,99.68278456,555.5343535,7
+388,Neural network,slump,Zero,76.14115240874268,3.063208917e-05,7
+389,Neural network,slump,Mean,83.19790341,2.870531643e-05,7
+391,Neural network,slump,Uniform,76.14115240874268,0.00037846622050000003,7
+392,Neural network,slump,Marginal,99.39251468,0.00032035,7
+393,Neural network,slump,Conditional,99.39251468,0.007174,7
+394,Neural network,slump,Gaussian,99.39251448,0.00784,7
+395,Neural network,slump,Copula,99.39251464,0.006341,7
+396,Neural network,slump-flow,Separate models,98.51604861,1001.612079,7
+397,Neural network,slump-flow,Zero,76.14115240874268,3.096875022e-05,7
+398,Neural network,slump-flow,Mean,98.19023518,2.9534662469999998e-05,7
+400,Neural network,slump-flow,Uniform,76.14115240874268,0.0001449266602,7
+401,Neural network,slump-flow,Marginal,98.35801493,0.00032525,7
+402,Neural network,slump-flow,Conditional,98.35801498,0.006303,7
+403,Neural network,slump-flow,Gaussian,98.35801489,0.006129,7
+404,Neural network,slump-flow,Copula,98.3580149,0.010528,7
+405,Neural network,slump-mpa,Separate models,99.96671753,506.5879352,7
+406,Neural network,slump-mpa,Zero,76.14115240874268,2.993941307e-05,7
+407,Neural network,slump-mpa,Mean,98.63724559,0.0006398753559,7
+409,Neural network,slump-mpa,Uniform,76.14115240874268,0.0009050839577999999,7
+410,Neural network,slump-mpa,Marginal,99.94850601,0.0003125,7
+411,Neural network,slump-mpa,Conditional,99.94850601,0.008338,7
+412,Neural network,slump-mpa,Gaussian,99.94850596,0.006107,7
+413,Neural network,slump-mpa,Copula,99.94850595,0.006338,7
+414,Neural network,wholesale,Separate models,98.5960733,965.7802997,7
+415,Neural network,wholesale,Zero,76.14115240874268,2.747418129e-05,7
+416,Neural network,wholesale,Mean,69.31393055,2.7336715020000003e-05,7
+418,Neural network,wholesale,Uniform,76.14115240874268,0.00137024183,7
+419,Neural network,wholesale,Marginal,98.05573828,0.0004313,7
+420,Neural network,wholesale,Conditional,98.05573804,0.008095,7
+421,Neural network,wholesale,Gaussian,98.05573951,0.009926,7
+422,Neural network,wholesale,Copula,98.05573856,0.008765,7
+423,Neural network,californiahousing,Separate models,99.36747558,20530.16131,8
+424,Neural network,californiahousing,Zero,76.14115240874268,3.187461333e-05,8
+425,Neural network,californiahousing,Mean,99.72096125,0.0002628854405,8
+427,Neural network,californiahousing,Uniform,76.14115240874268,0.00771254009,8
+428,Neural network,californiahousing,Marginal,99.52593728,0.00080205,8
+429,Neural network,californiahousing,Conditional,99.52593733,0.0138,8
+430,Neural network,californiahousing,Gaussian,99.52593963,0.016272,8
+431,Neural network,californiahousing,Copula,99.52593724,0.018591,8
+432,Neural network,cms,Separate models,99.91817388,2935.107668,8
+433,Neural network,cms,Zero,76.14115240874268,3.271374558e-05,8
+434,Neural network,cms,Mean,50.09971373,3.1285293170000005e-05,8
+436,Neural network,cms,Uniform,76.14115240874268,0.0077408199450000005,8
+437,Neural network,cms,Marginal,99.60988888,0.0010538000000000001,8
+438,Neural network,cms,Conditional,99.6098889,0.014685,8
+439,Neural network,cms,Gaussian,99.60988797,0.017847,8
+440,Neural network,cms,Copula,99.60988887,0.017974,8
+441,Neural network,concrete,Separate models,99.91817388,2890.226338,8
+442,Neural network,concrete,Zero,76.14115240874268,3.216099739e-05,8
+443,Neural network,concrete,Mean,50.09971373,0.00036454619059999996,8
+445,Neural network,concrete,Uniform,76.14115240874268,0.007718368015,8
+446,Neural network,concrete,Marginal,99.60988888,0.00111085,8
+447,Neural network,concrete,Conditional,99.6098889,0.013037,8
+448,Neural network,concrete,Gaussian,99.60988797,0.016515,8
+449,Neural network,concrete,Copula,99.60988887,0.017172,8
+450,Neural network,crab,Separate models,99.8372562,7549.906752,8
+451,Neural network,crab,Zero,76.14115240874268,3.544805267e-05,8
+452,Neural network,crab,Mean,99.38211808,3.727639083e-05,8
+454,Neural network,crab,Uniform,76.14115240874268,0.008396638467,8
+455,Neural network,crab,Marginal,99.09955161,0.00080915,8
+456,Neural network,crab,Conditional,99.09955173,0.015187,8
+457,Neural network,crab,Gaussian,99.09955153,0.01639,8
+458,Neural network,crab,Copula,99.09955195,0.0179,8
+459,Neural network,cust,Separate models,99.95935146,2793.63913,8
+460,Neural network,cust,Zero,76.14115240874268,3.181492307e-05,8
+461,Neural network,cust,Mean,97.60696926,3.111370093e-05,8
+463,Neural network,cust,Uniform,76.14115240874268,0.008063453043000001,8
+464,Neural network,cust,Marginal,99.88692592,0.0007626,8
+465,Neural network,cust,Conditional,99.88692591,0.01428,8
+466,Neural network,cust,Gaussian,99.8869258,0.015155,8
+467,Neural network,cust,Copula,99.88692591,0.016245,8
+468,Neural network,diabetes,Separate models,99.88434768,2711.567796,8
+469,Neural network,diabetes,Zero,76.14115240874268,3.1812932549999996e-05,8
+470,Neural network,diabetes,Mean,62.92174455,3.147000403e-05,8
+472,Neural network,diabetes,Uniform,87.32638389,0.006281378775000001,8
+473,Neural network,diabetes,Marginal,99.90447343,0.0007106,8
+474,Neural network,diabetes,Conditional,99.90447342,0.013035,8
+475,Neural network,diabetes,Gaussian,99.90447326,0.01641,8
+476,Neural network,diabetes,Copula,99.90447352,0.015616,8
+477,Neural network,energy_cool,Separate models,99.63248529,2395.740337,8
+478,Neural network,energy_cool,Zero,76.14115240874268,3.246564565e-05,8
+479,Neural network,energy_cool,Mean,88.20177802,2.964228157e-05,8
+481,Neural network,energy_cool,Uniform,76.14115240874268,0.007799415431,8
+482,Neural network,energy_cool,Marginal,99.59621256,0.0007045,8
+483,Neural network,energy_cool,Conditional,99.59621259,0.011548,8
+484,Neural network,energy_cool,Gaussian,99.59621252,0.014313,8
+485,Neural network,energy_cool,Copula,99.59621247,0.015161,8
+486,Neural network,energy_heat,Separate models,99.69915198,4813.820536,8
+487,Neural network,energy_heat,Zero,76.14115240874268,3.145306129e-05,8
+488,Neural network,energy_heat,Mean,92.33225654,3.079127139e-05,8
+490,Neural network,energy_heat,Uniform,76.14115240874268,0.007792391918,8
+491,Neural network,energy_heat,Marginal,99.68929451,0.0011737,8
+492,Neural network,energy_heat,Conditional,99.68929454,0.012855,8
+493,Neural network,energy_heat,Gaussian,99.68929449,0.014965,8
+494,Neural network,energy_heat,Copula,99.68929445,0.016835,8
+495,Neural network,prostate,Separate models,95.46614774,3248.449686,8
+496,Neural network,prostate,Zero,76.14115240874268,5.1004814379999995e-05,8
+497,Neural network,prostate,Mean,97.3420824,0.0007056421944999999,8
+499,Neural network,prostate,Uniform,76.14115240874268,0.0009902463754000001,8
+500,Neural network,prostate,Marginal,95.44113943,0.000394,8
+501,Neural network,prostate,Conditional,95.4411398,0.009031,8
+502,Neural network,prostate,Gaussian,95.44114104,0.009061,8
+503,Neural network,prostate,Copula,95.44114039,0.008095,8
+504,Neural network,rentals,Separate models,99.84552299,12685.4165,8
+505,Neural network,rentals,Zero,76.14115240874268,3.278826945e-05,8
+506,Neural network,rentals,Mean,99.99985046,0.0003751619151,8
+508,Neural network,rentals,Uniform,76.14115240874268,0.00771860148,8
+509,Neural network,rentals,Marginal,99.99971329,0.0007990499999999999,8
+510,Neural network,rentals,Conditional,99.99971329,0.013629,8
+511,Neural network,rentals,Gaussian,99.99971329,0.016718,8
+512,Neural network,rentals,Copula,99.99971329,0.01729,8
+513,Neural network,wage,Separate models,99.99775209,4666.119371,8
+514,Neural network,wage,Zero,76.14115240874268,3.280370163e-05,8
+515,Neural network,wage,Mean,99.22462782,3.1170043080000004e-05,8
+517,Neural network,wage,Uniform,76.14115240874268,0.008396820843,8
+518,Neural network,wage,Marginal,99.70417676,0.0008394,8
+519,Neural network,wage,Conditional,99.7041767,0.015097,8
+520,Neural network,wage,Gaussian,99.70417676,0.016449,8
+521,Neural network,wage,Copula,99.70417673,0.017954,8
+522,Neural network,cancer,Separate models,99.92659686,10164.92878,9
+523,Neural network,cancer,Zero,76.14115240874268,5.219723271e-05,9
+524,Neural network,cancer,Mean,92.89598575,3.414262713e-05,9
+526,Neural network,cancer,Uniform,99.56055561,0.007979255196999999,9
+527,Neural network,cancer,Marginal,99.88713932,0.00095055,9
+528,Neural network,cancer,Conditional,99.88713939,0.017224,9
+529,Neural network,cancer,Gaussian,99.88713903,0.020281,9
+530,Neural network,cancer,Copula,99.88713927,0.020431,9
+531,Neural network,casp,Separate models,99.98983334,41051.13643,9
+532,Neural network,casp,Zero,76.14115240874268,3.543071313e-05,9
+533,Neural network,casp,Mean,99.93841887,3.4624237e-05,9
+535,Neural network,casp,Uniform,76.14115240874268,0.006895516244999999,9
+536,Neural network,casp,Marginal,93.1705498,0.00125415,9
+537,Neural network,casp,Conditional,93.17054957,0.021752,9
+538,Neural network,casp,Gaussian,93.17053921,0.036709,9
+539,Neural network,casp,Copula,93.1705495,0.025972,9
+540,Neural network,country-data,Separate models,99.82630699,39324.13643,9
+541,Neural network,country-data,Zero,53.26539179,3.677725792e-05,9
+542,Neural network,country-data,Mean,96.90694479,3.533342055e-05,9
+544,Neural network,country-data,Uniform,76.14115240874268,0.001507698378,9
+545,Neural network,country-data,Marginal,99.52630708,0.00059785,9
+546,Neural network,country-data,Conditional,99.52630699,0.011415,9
+547,Neural network,country-data,Gaussian,99.5263086,0.017687,9
+548,Neural network,country-data,Copula,99.52630715,0.013467,9
+549,Neural network,employee,Separate models,97.98029629,43002.13643,9
+550,Neural network,employee,Zero,76.14115240874268,3.60539682e-05,9
+551,Neural network,employee,Mean,97.71244731,3.3866578879999997e-05,9
+553,Neural network,employee,Uniform,76.14115240874268,0.006943561034,9
+554,Neural network,employee,Marginal,97.99029645,0.0011225,9
+555,Neural network,employee,Conditional,97.99029647,0.026293,9
+556,Neural network,employee,Gaussian,97.99029629,0.026044,9
+557,Neural network,employee,Copula,97.99029613,0.026945,9
+558,Neural network,energy,Separate models,99.8893456,7889.633383,9
+559,Neural network,energy,Zero,76.14115240874268,3.6327529140000004e-05,9
+560,Neural network,energy,Mean,98.75364483,3.486619221e-05,9
+562,Neural network,energy,Uniform,76.14115240874268,0.008179696674,9
+563,Neural network,energy,Marginal,99.89008026,0.0009906,9
+564,Neural network,energy,Conditional,99.89008028,0.018985,9
+565,Neural network,energy,Gaussian,99.89008025,0.022054,9
+566,Neural network,energy,Copula,99.89008025,0.021723,9
+567,Neural network,friedman,Separate models,99.92844549,17889.63338,9
+568,Neural network,friedman,Zero,76.14115240874268,3.7245512010000004e-05,9
+569,Neural network,friedman,Mean,96.92616865,3.656586011e-05,9
+571,Neural network,friedman,Uniform,96.47821899,0.006941194134,9
+572,Neural network,friedman,Marginal,99.66844556,0.00112915,9
+573,Neural network,friedman,Conditional,99.66844556,0.018362,9
+574,Neural network,friedman,Gaussian,99.66844549,0.027257,9
+575,Neural network,friedman,Copula,99.66844559,0.02517,9
+576,Neural network,glass,Separate models,99.07069981,3582.151804,9
+577,Neural network,glass,Zero,76.14115240874268,5.870275094e-05,9
+578,Neural network,glass,Mean,99.07069981,0.0006420988095999999,9
+580,Neural network,glass,Uniform,76.14115240874268,0.002796718604,9
+581,Neural network,glass,Marginal,99.06712748,0.0006355999999999999,9
+582,Neural network,glass,Conditional,99.06712743,0.012394,9
+583,Neural network,glass,Gaussian,99.06712819,0.014367,9
+584,Neural network,glass,Copula,99.06713106,0.015378,9
+585,Neural network,precip,Separate models,98.66893378,52161.36111,9
+586,Neural network,precip,Zero,76.14115240874268,3.7277113309999996e-05,9
+587,Neural network,precip,Mean,99.99548238,3.450408849e-05,9
+589,Neural network,precip,Uniform,76.14115240874268,0.006943232596,9
+590,Neural network,precip,Marginal,99.42351416,0.00126915,9
+591,Neural network,precip,Conditional,99.42351421,0.021985,9
+592,Neural network,precip,Gaussian,99.42351417,0.023795,9
+593,Neural network,precip,Copula,99.42351422,0.026346,9
+594,Neural network,abalone,Separate models,99.44637189,52720.22796,10
+595,Neural network,abalone,Zero,76.14115240874268,4.00335861e-05,10
+596,Neural network,abalone,Mean,48.64773794,3.9253986240000005e-05,10
+598,Neural network,abalone,Uniform,76.14115240874268,0.008289597434999999,10
+599,Neural network,abalone,Marginal,99.46580885,0.00199285,10
+600,Neural network,abalone,Conditional,99.46580841,0.035548,10
+601,Neural network,abalone,Gaussian,99.46580902,0.043606,10
+602,Neural network,abalone,Copula,99.46580835,0.040787,10
+603,Neural network,asia_gdp,Separate models,99.81857177,48720.22796,10
+604,Neural network,asia_gdp,Zero,76.14115240874268,4.4436284470000005e-05,10
+605,Neural network,asia_gdp,Mean,97.91857177,4.176310131e-05,10
+607,Neural network,asia_gdp,Uniform,76.14115240874268,0.0004324336222,10
+608,Neural network,asia_gdp,Marginal,96.87211274,0.00088895,10
+609,Neural network,asia_gdp,Conditional,96.87211305,0.01705,10
+610,Neural network,asia_gdp,Gaussian,96.87211236,0.019822,10
+611,Neural network,asia_gdp,Copula,96.87211271,0.025368,10
+612,Neural network,poker,Separate models,99.9845382,41320.22796,10
+613,Neural network,poker,Zero,70.75509326,3.935571873e-05,10
+614,Neural network,poker,Mean,41.81316135,4.1015921219999995e-05,10
+616,Neural network,poker,Uniform,54.0124819,0.008295831695,10
+617,Neural network,poker,Marginal,99.95946639,0.0038156500000000003,10
+618,Neural network,poker,Conditional,99.95946637,0.035667,10
+619,Neural network,poker,Gaussian,99.95946644,0.039596,10
+620,Neural network,poker,Copula,99.95946642,0.039242,10
+621,Neural network,possumbelly,Separate models,99.61958261,12502.51352,10
+622,Neural network,possumbelly,Zero,76.14115240874268,6.809527533e-05,10
+623,Neural network,possumbelly,Mean,91.27040745,0.0008980698586,10
+625,Neural network,possumbelly,Uniform,76.14115240874268,0.001104538195,10
+626,Neural network,possumbelly,Marginal,99.95432334,0.0009780000000000001,10
+627,Neural network,possumbelly,Conditional,99.95432337,0.018182,10
+628,Neural network,possumbelly,Gaussian,99.95432332,0.019981,10
+629,Neural network,possumbelly,Copula,99.95432331,0.019636,10
+630,Neural network,possumchest,Separate models,99.95566313,9090.431955,10
+631,Neural network,possumchest,Zero,76.14115240874268,6.010866165e-05,10
+632,Neural network,possumchest,Mean,90.17510661,0.0006021283695,10
+634,Neural network,possumchest,Uniform,76.14115240874268,0.0011062284469999998,10
+635,Neural network,possumchest,Marginal,99.49973495,0.0010425999999999999,10
+636,Neural network,possumchest,Conditional,99.49973499,0.018014,10
+637,Neural network,possumchest,Gaussian,99.49973521,0.020434,10
+638,Neural network,possumchest,Copula,99.4997348,0.020114,10
+639,Neural network,spending,Separate models,99.8997348,19090.43196,10
+640,Neural network,spending,Zero,76.14115240874268,4.24653462e-05,10
+641,Neural network,spending,Mean,90.17510661,3.9971828460000004e-05,10
+643,Neural network,spending,Uniform,76.14115240874268,0.0011418865540000001,10
+644,Neural network,spending,Marginal,99.49973495,0.0009513499999999999,10
+645,Neural network,spending,Conditional,99.49973499,0.034291,10
+646,Neural network,spending,Gaussian,99.49973521,0.023157,10
+647,Neural network,spending,Copula,99.4997348,0.019436,10
+648,Neural network,telescope,Separate models,99.94169285,61269.78921,10
+649,Neural network,telescope,Zero,76.14115240874268,3.736419389e-05,10
+650,Neural network,telescope,Mean,61.00363117,3.87664925e-05,10
+652,Neural network,telescope,Uniform,59.46826858,0.008289563737,10
+653,Neural network,telescope,Marginal,99.19528277,0.0018438,10
+654,Neural network,telescope,Conditional,99.19528293,0.03149,10
+655,Neural network,telescope,Gaussian,99.19528331,0.04358,10
+656,Neural network,telescope,Copula,99.19528312,0.070196,10
+657,Neural network,bikedaily,Separate models,99.95866795,35133.0443,11
+658,Neural network,bikedaily,Zero,76.14115240874268,4.385236866e-05,11
+659,Neural network,bikedaily,Mean,99.92385013,4.2072140479999994e-05,11
+661,Neural network,bikedaily,Uniform,61.70055713,0.0021307944820000003,11
+662,Neural network,bikedaily,Marginal,99.96474583,0.00271145,11
+663,Neural network,bikedaily,Conditional,99.96474584,0.047607,11
+664,Neural network,bikedaily,Gaussian,99.96474587,0.064846,11
+665,Neural network,bikedaily,Copula,99.96474585,0.060786,11
+666,Neural network,hybrid,Separate models,99.8502563,20554.47805,11
+667,Neural network,hybrid,Zero,76.14115240874268,4.366991567e-05,11
+668,Neural network,hybrid,Mean,85.21026152,4.46396248e-05,11
+670,Neural network,hybrid,Uniform,76.14115240874268,0.0005476944353,11
+671,Neural network,hybrid,Marginal,99.97749323,0.0017722999999999999,11
+672,Neural network,hybrid,Conditional,99.97749326,0.03364,11
+673,Neural network,hybrid,Gaussian,99.97749329,0.035887,11
+674,Neural network,hybrid,Copula,99.97749324,0.03837,11
+675,Neural network,migration,Separate models,94.45969632,42022.7716,11
+676,Neural network,migration,Zero,94.88558518,7.047306408e-05,11
+677,Neural network,migration,Mean,96.00128984,4.454702526e-05,11
+679,Neural network,migration,Uniform,54.60445389,0.002826407417,11
+680,Neural network,migration,Marginal,94.27606087,0.0019081500000000002,11
+681,Neural network,migration,Conditional,94.27606247,0.036133,11
+682,Neural network,migration,Gaussian,94.27606314,0.03977,11
+683,Neural network,migration,Copula,94.27606138,0.041497,11
+684,Neural network,mtcars,Separate models,99.9877049,52022.7716,11
+685,Neural network,mtcars,Zero,76.14115240874268,4.709200426e-05,11
+686,Neural network,mtcars,Mean,92.36276289,4.2927048419999995e-05,11
+688,Neural network,mtcars,Uniform,76.14115240874268,0.0001468755549,11
+689,Neural network,mtcars,Marginal,60.1855142,0.0017402999999999997,11
+690,Neural network,mtcars,Conditional,60.18552672,0.029812,11
+691,Neural network,mtcars,Gaussian,60.18552484,0.033095,11
+692,Neural network,mtcars,Copula,60.18552242,0.033844,11
+693,Neural network,telecom,Separate models,99.9877049,50036.1935,11
+694,Neural network,telecom,Zero,76.14115240874268,4.381493366e-05,11
+695,Neural network,telecom,Mean,99.95503049,4.2850003100000005e-05,11
+697,Neural network,telecom,Uniform,76.14115240874268,0.008618341920000001,11
+698,Neural network,telecom,Marginal,99.94436188,0.00327165,11
+699,Neural network,telecom,Conditional,99.94436186,0.054322,11
+700,Neural network,telecom,Gaussian,99.94436301,0.068757,11
+701,Neural network,telecom,Copula,99.94436189,0.071323,11
+702,Neural network,winequality,Separate models,99.87482508,31945.36384,11
+703,Neural network,winequality,Zero,76.14115240874268,4.423269359e-05,11
+704,Neural network,winequality,Mean,99.9986195,4.134717132e-05,11
+706,Neural network,winequality,Uniform,76.14115240874268,0.003894678185,11
+707,Neural network,winequality,Marginal,99.90777449,0.0034528499999999995,11
+708,Neural network,winequality,Conditional,99.9077745,0.065077,11
+709,Neural network,winequality,Gaussian,99.90777452,0.078297,11
+710,Neural network,winequality,Copula,99.90777452,0.078297,11
+711,Neural network,winequality-red,Separate models,99.87482508,81865.36384,11
+712,Neural network,winequality-red,Zero,76.14115240874268,4.444183725e-05,11
+713,Neural network,winequality-red,Mean,99.12979846,4.1001587200000005e-05,11
+715,Neural network,winequality-red,Uniform,76.14115240874268,0.008618129890000001,11
+716,Neural network,winequality-red,Marginal,99.81557859,0.00299245,11
+717,Neural network,winequality-red,Conditional,99.81557863,0.063919,11
+718,Neural network,winequality-red,Gaussian,99.81558017,0.07378,11
+719,Neural network,winequality-red,Copula,99.81557861,0.072821,11
+720,Neural network,winequality-white,Separate models,99.94293607,73865.36384,11
+721,Neural network,winequality-white,Zero,76.14115240874268,4.3758760799999995e-05,11
+722,Neural network,winequality-white,Mean,99.98574255,4.254364967e-05,11
+724,Neural network,winequality-white,Uniform,76.14115240874268,0.003899023948,11
+725,Neural network,winequality-white,Marginal,99.94293604,0.0036255999999999997,11
+726,Neural network,winequality-white,Conditional,99.94293603,0.064926,11
+727,Neural network,winequality-white,Gaussian,99.94293607,0.094105,11
+728,Neural network,winequality-white,Copula,99.94293607,0.094105,11
+729,Neural network,adult,Separate models,99.99985546,45865.36384,12
+730,Neural network,adult,Zero,76.14115240874268,4.777302164e-05,12
+731,Neural network,adult,Mean,65.39197601,4.467561028e-05,12
+733,Neural network,adult,Uniform,76.14115240874268,0.01224901855,12
+734,Neural network,adult,Marginal,99.53605878,0.00535565,12
+735,Neural network,adult,Conditional,99.53605878,0.111433,12
+736,Neural network,adult,Gaussian,99.5360586,0.131894,12
+737,Neural network,adult,Copula,99.5360586,0.131894,12
+738,Neural network,airquality,Separate models,99.99985546,302721.5027,12
+739,Neural network,airquality,Zero,98.58061904,4.826188086999999e-05,12
+740,Neural network,airquality,Mean,99.53121501,4.491731615e-05,12
+742,Neural network,airquality,Uniform,76.14115240874268,0.01218921585,12
+743,Neural network,airquality,Marginal,99.87190213,0.005555849999999999,12
+744,Neural network,airquality,Conditional,99.87190215,0.103211,12
+745,Neural network,airquality,Gaussian,99.87190243,0.134584,12
+746,Neural network,airquality,Copula,99.87190243,0.134584,12
+747,Neural network,bikehourly,Separate models,99.99698892,253962.0893,12
+748,Neural network,bikehourly,Zero,76.14115240874268,4.863820654e-05,12
+749,Neural network,bikehourly,Mean,96.48113481,0.00041695042090000004,12
+751,Neural network,bikehourly,Uniform,76.14115240874268,0.01219849563,12
+752,Neural network,bikehourly,Marginal,99.97806933,0.0063560000000000005,12
+753,Neural network,bikehourly,Conditional,99.97806933,0.106977,12
+754,Neural network,bikehourly,Gaussian,99.9780693,0.131102,12
+755,Neural network,bikehourly,Copula,99.9780693,0.131102,12
+756,Neural network,forest,Separate models,99.95476991,84152.38241,12
+757,Neural network,forest,Zero,57.28449838,5.184421762e-05,12
+758,Neural network,forest,Mean,98.60536059,0.0006136129892,12
+760,Neural network,forest,Uniform,76.14115240874268,0.002598428094,12
+761,Neural network,forest,Marginal,98.60786287,0.00507345,12
+762,Neural network,forest,Conditional,98.60786285,0.075405,12
+763,Neural network,forest,Gaussian,98.60786332,0.107517,12
+764,Neural network,forest,Copula,98.60786332,0.107517,12
+765,Neural network,forestfire,Separate models,99.99376048,189229.7132,12
+766,Neural network,forestfire,Zero,57.0370045,4.818817328e-05,12
+767,Neural network,forestfire,Mean,99.99376048,4.5637931039999996e-05,12
+769,Neural network,forestfire,Uniform,76.14115240874268,0.008309760713999999,12
+770,Neural network,forestfire,Marginal,99.25223938,0.00483815,12
+771,Neural network,forestfire,Conditional,99.25223921,0.091132,12
+772,Neural network,forestfire,Gaussian,99.25224038,0.104175,12
+773,Neural network,forestfire,Copula,99.25224038,0.104175,12
+774,Neural network,heartfailure,Separate models,99.60426496,159492.7132,12
+775,Neural network,heartfailure,Zero,76.14115240874268,4.6249278870000006e-05,12
+776,Neural network,heartfailure,Mean,98.89929133,4.297220346e-05,12
+778,Neural network,heartfailure,Uniform,76.14115240874268,0.004601119668,12
+779,Neural network,heartfailure,Marginal,99.30426491,0.004051600000000001,12
+780,Neural network,heartfailure,Conditional,99.30426496,0.082274,12
+781,Neural network,heartfailure,Gaussian,99.30426496,0.08223,12
+782,Neural network,heartfailure,Copula,99.30426496,0.08223,12
+783,Neural network,ozone,Separate models,99.99775298,213421.7132,12
+784,Neural network,ozone,Zero,76.14115240874268,4.8897942500000005e-05,12
+785,Neural network,ozone,Mean,63.31625351,4.630896582999999e-05,12
+787,Neural network,ozone,Uniform,56.30021421,0.003546202902,12
+788,Neural network,ozone,Marginal,99.40967239,0.00418505,12
+789,Neural network,ozone,Conditional,99.40967249,0.075346,12
+790,Neural network,ozone,Gaussian,99.40967248,0.083663,12
+791,Neural network,ozone,Copula,99.40967248,0.083663,12
+792,Neural network,pumpkinseed,Separate models,99.77283578,229992.7132,12
+793,Neural network,pumpkinseed,Zero,76.14115240874268,4.719035553e-05,12
+794,Neural network,pumpkinseed,Mean,99.98498893,4.543469891e-05,12
+796,Neural network,pumpkinseed,Uniform,76.14115240874268,0.01223979995,12
+797,Neural network,pumpkinseed,Marginal,99.98085709,0.00531485,12
+798,Neural network,pumpkinseed,Conditional,99.9808571,0.10758,12
+799,Neural network,pumpkinseed,Gaussian,99.98085709,0.130103,12
+800,Neural network,pumpkinseed,Copula,99.98085709,0.130103,12
+801,Neural network,seoulbike,Separate models,99.77283578,139992.7132,12
+802,Neural network,seoulbike,Zero,76.14115240874268,4.78031852e-05,12
+803,Neural network,seoulbike,Mean,86.27271161,4.525987307e-05,12
+805,Neural network,seoulbike,Uniform,76.14115240874268,0.01224627682,12
+806,Neural network,seoulbike,Marginal,98.9784135,0.00536375,12
+807,Neural network,seoulbike,Conditional,98.97841349,0.126336,12
+808,Neural network,seoulbike,Gaussian,98.97841322,0.139625,12
+809,Neural network,seoulbike,Copula,98.97841322,0.139625,12
+810,Neural network,servo,Separate models,99.77283578,229992.7132,12
+811,Neural network,servo,Zero,76.14115240874268,4.686554995e-05,12
+812,Neural network,servo,Mean,76.14115240874268,4.691943255e-05,12
+814,Neural network,servo,Uniform,76.14115240874268,0.002920345766,12
+815,Neural network,servo,Marginal,99.10240651,0.0039001500000000002,12
+816,Neural network,servo,Conditional,99.10240662,0.068249,12
+817,Neural network,servo,Gaussian,99.10240631,0.068434,12
+818,Neural network,servo,Copula,99.10241056,0.069811,12
+819,Neural network,stockreturn,Separate models,99.99809276,89713.23341,12
+820,Neural network,stockreturn,Zero,76.14115240874268,4.756308519e-05,12
+821,Neural network,stockreturn,Mean,76.14115240874268,4.6511865580000005e-05,12
+823,Neural network,stockreturn,Uniform,76.14115240874268,0.005755029707,12
+824,Neural network,stockreturn,Marginal,99.99730186,0.0040684499999999995,12
+825,Neural network,stockreturn,Conditional,99.99730185,0.065362,12
+826,Neural network,stockreturn,Gaussian,99.99730187,0.086256,12
+827,Neural network,stockreturn,Copula,99.99730187,0.086256,12
+828,Neural network,stockrisk,Separate models,97.65974927,98091.65368,12
+829,Neural network,stockrisk,Zero,76.14115240874268,4.7770165479999995e-05,12
+830,Neural network,stockrisk,Mean,82.96957578,0.00032371747950000004,12
+832,Neural network,stockrisk,Uniform,76.14115240874268,0.001639956028,12
+833,Neural network,stockrisk,Marginal,97.81099692,0.0043584999999999995,12
+834,Neural network,stockrisk,Conditional,97.81099697,0.063547,12
+835,Neural network,stockrisk,Gaussian,97.81099699,0.09013,12
+836,Neural network,stockrisk,Copula,97.81099699,0.09013,12
+837,Neural network,wine,Separate models,99.89954323,93091.65368,12
+838,Neural network,wine,Zero,76.14115240874268,4.779931271e-05,12
+839,Neural network,wine,Mean,99.92561844,4.546057094e-05,12
+841,Neural network,wine,Uniform,76.14115240874268,0.012249092429999999,12
+842,Neural network,wine,Marginal,99.87954323,0.0053235999999999995,12
+843,Neural network,wine,Conditional,99.87954323,0.103698,12
+844,Neural network,wine,Gaussian,99.87954323,0.103698,12
+845,Neural network,wine,Copula,99.87954322,0.155319,12
+846,Neural network,heart_disease,Separate models,99.91245898,239850.8452,13
+847,Neural network,heart_disease,Zero,76.14115240874268,5.2337699470000005e-05,13
+848,Neural network,heart_disease,Mean,99.68748615,5.047037866e-05,13
+850,Neural network,heart_disease,Uniform,49.13728807,0.0046070925740000004,13
+851,Neural network,heart_disease,Marginal,99.91377817,0.00890455,13
+852,Neural network,heart_disease,Conditional,99.91377814,0.15394,13
+853,Neural network,heart_disease,Gaussian,99.21377822,0.121902,13
+854,Neural network,heart_disease,Copula,99.91377822,0.171902,13
