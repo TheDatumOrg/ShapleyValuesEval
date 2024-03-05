@@ -41,7 +41,7 @@ properly treating missing values with the help of different replacement strategi
 exhaustive estimation of Shapley values. This evaluation measure
 will highlight the strengths and weaknesses of replacement strategies, aiding future research in selecting the most reliable strategy.
 <p align="center">
-<img width="1000" src="./results/replacement/replacemenetstrategies.pdf"/>
+<img width="1000" src="./results/replacement/replacementStrategies.png"/>
 </p>
 
 
