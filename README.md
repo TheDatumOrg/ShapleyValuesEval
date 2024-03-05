@@ -40,6 +40,11 @@ setting up the evaluation framework. The first dimension involves
 properly treating missing values with the help of different replacement strategies. We deploy each replacement strategy against an
 exhaustive estimation of Shapley values. This evaluation measure
 will highlight the strengths and weaknesses of replacement strategies, aiding future research in selecting the most reliable strategy.
+<p align="center">
+<img width="1000" src="./results/replacement/replacemenetstrategies.pdf"/>
+</p>
+
+
 The second dimension focuses on tractable estimation strategies,
 which are crucial for efficiently computing Shapley values. We analyze the performance of these tractable estimation strategies using
 established approximation algorithms. We systematically evaluate
