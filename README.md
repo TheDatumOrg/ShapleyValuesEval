@@ -48,5 +48,23 @@ evaluation enables us to thoroughly assess the performance and
 efficacy of different strategies and approximations in estimating
 Shapley values across varied data scenarios.
 
-
+| Approaches                                | Estimation Strategy                   | Replacement Strategy                                             |
+|-------------------------------------------|---------------------------------------|------------------------------------------------------------------|
+| Exhaustive Sampling                       | Exact (All potential feature subsets) | Conditional Distribution: Separate Models                        |
+| Interactions-based Method for Explanation | Random Order                          | Marginal Distribution: Empirical                                 |
+| Conditional Expectations Shapley          | Random Order                          | Conditional Distribution: Empirical                              |
+| Shapley Cohort refinement                 | Random Order                          | Conditional Distribution: Empirical                              |
+| Multilinear Sampling                      | Multilinear Extension                 | Marginal Distribution: Empirical                                 |
+| KernelSHAP                                | Weighted Least Squares                | Marginal Distribution: Empirical                                 |
+| Parametric KernelSHAP                     | Weighted Least Squares                | Conditional Distribution: Parametric Assumption(Gaussian/Copula) |
+| Non-Parametric KernelSHAP                 | Weighted Least Squares                | Conditional Distribution: Empirical                              |
+| SGD-Shapley                               | Weighted Least Squares                | Predetermined Baseline: Mean                                     |
+| FastSHAP                                  | Weighted Least Squares                | Conditional Distribution: Surrogate model                        |
+| Independent LinearSHAP                    | Linear                                | Marginal Distribution: Empirical                                 |
+| Correlated LinearSHAP                     | Linear                                | Conditional Distribution: Parametric Assumption(Gaussian)        |
+| Tree Interventional                       | Tree                                  | Marginal Distribution: Empirical                                 |
+| Tree Path-dependent                       | Tree                                  | Conditional Distribution: Empirical                              |
+| DeepLIFT                                  | Deep                                  | Predetermined Baseline: All-zeros                                |
+| DeepSHAP                                  | Deep                                  | Marginal Distribution: Empirical                                 |
+| DASP                                      | Deep                                  | Predetermined Baseline: Mean                                     |
 
