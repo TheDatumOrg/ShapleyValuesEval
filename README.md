@@ -5,8 +5,8 @@
 1. 🔎 [Overview](#overview)
 2. ⚙️ [Get Started](#start)
 3. 📊 [Evaluation](#evaluation)
-4. 📫 [Evaluation](#evaluation)
-5. [Evaluation](#evaluation)
+4. 📫 [Contact](#Contact)
+5. ⭐ [Acknowledgements](#Acknowledgements)
  
    
 <h2 id="overview"> 🔎 1. Overview </h2>
@@ -88,7 +88,7 @@ Each method is benchmarked using **100 datasets** and **6 types of predictive mo
 | DASP                                      | Deep                                  | Predetermined Baseline: Mean                                     |
 
 
-<h2 id="evaluation"> 📫 4. Contact </h2>
+<h2 id="Contact"> 📫 4. Contact </h2>
 
 If you have any questions, suggestions, or ideas for improvement, feel free to:
 
